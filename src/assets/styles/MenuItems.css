@@ -1,0 +1,22 @@
+:root {
+  --navbar-color: '';
+  --navbar-selected-color: '';
+  --navbar-text-color: '';
+  --navbar-Icon-color: '';
+  --accent-color: '';
+
+  --title: '';
+  --titlebarIcon-color: '';
+  --titlebar-color: '';
+
+  --ListHeaderText-Colour: '';
+  --RowBorder-Colour: #000000;
+  --RelatedEntityLink-Colour: #52c1e5;
+  --button-color: '';
+  --controlborder-colour: #000000;
+  --controltext-colour: #000000;
+  --controllabel-colour: #000000;
+  --title-Bar-Name: '';
+  --ListHighlight-colour: #ecf0f1;
+  --ListSelected--colour: #e6f2f9;
+}

@@ -1,0 +1,90 @@
+.DesignerColumn {
+  width: 100%;
+  display: flex;
+  flex-grow: 1;
+  flex: 3;
+  overflow-y: auto;
+}
+
+.DesignerColumn-sub {
+  width: 100%;
+  /* padding: 5px; */
+  /* margin: 0 0 8px 0; */
+}
+
+.sectionContainer {
+  display: flow-root;
+  flex-grow: 1;
+  flex: 3;
+  padding: 8px;
+  margin: 1px 0;
+}
+.sectionContainer-sub {
+  padding: 5px;
+  /* margin: 0 1px 15px 0; */
+  /* border: 1px solid grey; */
+}
+
+.sectioncolumnContainer {
+  display: flex;
+  /* border: 1px solid grey; */
+  /* margin: 0 1px 15px 0; */
+  /* padding: 10px; */
+}
+.sectioncolumnContainer-sub {
+  width: 100%;
+  /* padding: 10px; */
+  padding: 3px;
+  margin: 1px 0;
+  /* height: 100px; */
+  /* height: 10vh; */
+  min-height: 10vh;
+}
+.ElementContainer {
+  padding: 8px;
+  margin: 1px 0;
+  border: 1px solid grey;
+  width: 100%;
+  min-height: 10vh;
+  /* height: 100%; */
+}
+.ElementContainer-sub {
+  display: flex;
+  /* width: 100%; */
+  margin: 0 1px 8px 0;
+  padding: 5px;
+  border: 1px solid grey;
+}
+
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1360px) {
+  .DesignerColumn {
+    height: 60vh !important;
+  }
+}
+
+@media screen and (min-width: 1361px) and (max-width: 1365px) {
+  .DesignerColumn {
+    height: 65vh !important;
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1440px) {
+  .DesignerColumn {
+    height: 55.5vh !important;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+  .DesignerColumn {
+    height: 65vh !important;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .DesignerColumn {
+    height: 72vh !important;
+  }
+}

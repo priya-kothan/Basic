@@ -1,0 +1,97 @@
+.addmodal {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  /* height: 100%; */
+  background: #ffffff;
+  box-shadow: 0px 0.42vw 1.48vh rgba(0, 0, 0, 0.1),
+    0 25px 50px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 0%;
+  top: 64px;
+  bottom: 0%;
+  /* overflow-y: auto; */
+  z-index: 1200;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+}
+
+.addmodal__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.addmodal__close .MuiIconButton-root {
+  padding: 0px;
+}
+
+.addmodal__title {
+  font-weight: 600;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+  line-height: 20px;
+  color: #303030;
+}
+
+.addmodal__content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 10px 1rem;
+  gap: 1rem;
+  overflow-y: auto;
+}
+
+.MuiSelect-outlined {
+}
+
+.addmodal__footer {
+  display: flex;
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  gap: 1rem;
+  border-top: 1px solid #ececec;
+}
+
+/* .addmodal .MuiButton-root {
+  border-radius: 8px;
+  text-transform: none;
+}
+
+.addmodal__success,
+.addmodal__success.MuiButton-root:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.addmodal__cancel,
+.addmodal__cancel.MuiButton-root:hover {
+  color: #000000;
+  border: 1px solid #595959;
+  background-color: #ffffff;
+} */
+
+body *:not(.addmodal) {
+  /* pointer-events: none; */
+}
+
+@media (max-width: 80em) {
+  .addmodal {
+    width: 420px;
+  }
+}
+
+@media (max-width: 60em) {
+  .addmodal {
+    width: 100%;
+    top: 0;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .addmodal {
+    width: 100%;
+    top: 0;
+  }
+}

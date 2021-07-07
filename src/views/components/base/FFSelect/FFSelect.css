@@ -1,0 +1,72 @@
+/* .FFSelect_root .MuiOutlinedInput-adornedEnd {
+   position: relative;
+   background-color: white;
+   flex: none;
+   border-radius: 8px;
+   height: 40px;
+   width: 200px;
+}
+.FFSelect_root .MuiOutlinedInput-inputAdornedEnd {
+   font-family: SF Pro Display;
+}
+.FFSelect_root .MuiAutocomplete-popupIndicator {
+   padding: 10px 0px;
+} */
+.Mui-error .MuiSelect-select {
+  /* border: 1px solid red; */
+  border: 0.05vw solid red;
+  border: 0.05vw solid red;
+}
+.FFSelect_root .MuiOutlinedInput-adornedEnd {
+  position: relative;
+  background-color: white;
+  flex: none;
+  border-radius: 0.42vw;
+  height: 3.7vh;
+  width: 7.81vw;
+}
+.FFSelect_root .MuiInputBase-input {
+  width: 10.96vw;
+  height: 2.5vh;
+  /* border-radius: 0.5vw; */
+  top: -0.05vw;
+}
+.FFSelect_root .MuiOutlinedInput-inputAdornedEnd {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+}
+
+.FFSelect_root .MuiInputLabel-outlined {
+  top: -0.16vw;
+}
+
+.FFSelect_root .Mui-focused .Mui-focused {
+  /* top: -3px; */
+  top: -0.16vw;
+}
+.FFSelect_root .MuiInputLabel-outlined .MuiFormLabel-filled {
+  /* top: -3px; */
+  top: -0.16vw;
+}
+
+.FFSelect_root .MuiMenu-paper {
+  /* margin-top: 48px;*/
+  margin-top: 2.5vw;
+  /* margin-left: 0.16vw; */
+  margin-left: 0.16vw;
+}
+
+.FFSelect_root.pinnedmodal-controls-sub-2 {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.iconselect {
+  margin-top: -0.6rem;
+  display: flex;
+  align-items: center;
+  padding: 0.1rem;
+  font-family: 'Segoe UI';
+  font-size: 0.875;
+}

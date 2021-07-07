@@ -1,0 +1,146 @@
+.OptionSetOption {
+  background: #ffffff;
+  border: 0.1vh solid var(--primary-color);
+  box-sizing: border-box;
+  border-radius: 0.82vh;
+}
+
+.FFButton_root .OptionSet_btnAdd,
+.OptionSet_btnClear {
+  /* background: #ffffff;
+  border: 0.1vh solid var(--primary-color); */
+  box-sizing: border-box;
+  /* border-radius: 0.82vh; */
+  width: 3.17vw;
+  height: 4.12vh;
+}
+
+.FFButton_root .OptionSet_btnAdd .MuiButtonBase-root .MuiButton-label,
+.FFButton_root .OptionSet_btnClear .MuiButtonBase-root .MuiButton-label {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3.17vw;
+  line-height: 1.85vh;
+  /* color: var(--primary-color); */
+}
+
+.FFButton_root .OptionSet_btnClear .MuiButtonBase-root .MuiButton-label {
+  color: #595959;
+}
+
+.OptionSet_ChildAdd .FFButton_root.FFButton-tooltip {
+  margin: 0.78vw 1.54vh;
+}
+.OptionSet_ChildSubmit {
+  margin-left: 27.86vh;
+}
+
+.OptionSet_btnAdd,
+.OptionSet_btnClear {
+  /* background: #ffffff;
+  border: 0.1vh solid var(--primary-color); */
+  box-sizing: border-box;
+  /* border-radius: 0.82vh; */
+  width: 3.17vw;
+  height: 4.12vh;
+}
+
+.OptionSet_ChildAdd .FFButton_root.FFButton-tooltip {
+  margin: 0.78vw 1.54vh;
+}
+
+.OptionSet_ChildSubmit {
+  margin-left: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.OptionSet_btnAddlabel,
+.OptionSet_btnAClearlabel {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.85vh;
+  /* color: var(--primary-color); */
+}
+
+.OptionSet_btnAClearlabel {
+  color: #595959;
+}
+
+.AddField .MuiInputBase-input {
+  /* height: 0.0876em; */
+}
+
+.AddField .MuiInputLabel-outlined {
+  transform: translate(25px, 12px) scale(0.8);
+}
+
+.AddField .MuiInputLabel-outlined.MuiInputLabel-shrink {
+  transform: translate(25px, -6px) scale(0.65);
+}
+
+.OptionSet_ItemesAdd,
+.OptionSet_ItemesClear {
+  margin-top: 1.82vw;
+}
+
+@media screen and (max-width: 450px) {
+  .OptionSet_btnAdd,
+  .OptionSet_btnClear {
+    /* background: #ffffff;
+    border: 0.1vh solid var(--primary-color); */
+    box-sizing: border-box;
+    /* border-radius: 0.82vh; */
+    width: 16.17vw;
+    height: 5.12vh;
+  }
+  .OptionSet_ChildSubmit {
+    margin-left: 38%;
+  }
+  .AddOptionSet-records-footer #Btn_SaveField {
+    width: 17.6vw;
+    height: 5.1vh;
+  }
+  .AddOptionSet-records-footer #Btn_Close {
+    width: 17.6vw;
+    height: 5.1vh;
+  }
+  .AddOptionSet-records-footer {
+    margin-top: 3.98vw;
+  }
+  /* .AddOptionSet .MuiOutlinedInput-input,
+   .MuiOutlinedInput-input {
+      padding: 20.5px 14px;
+   } */
+}
+
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .OptionSet_btnAdd,
+  .OptionSet_btnClear {
+    /* background: #ffffff;
+    border: 0.1vh solid var(--primary-color); */
+    box-sizing: border-box;
+    /* border-radius: 0.82vh; */
+    width: 5.17vw;
+    height: 4.12vh;
+  }
+  .OptionSet_ChildSubmit {
+    margin-left: 33%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1360px) {
+}
+
+.OptionSet_AddItemes {
+  display: flex;
+  /* margin-top: 1rem; */
+  padding: 1rem 0.2rem;
+  gap: 1rem;
+  border-top: 1px solid #ececec;
+}

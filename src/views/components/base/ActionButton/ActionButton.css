@@ -1,0 +1,43 @@
+.actionbutton {
+  background-color: transparent;
+}
+.actionbutton:hover {
+  background: var(--primary-color);
+}
+.actionbutton__icon .MuiSvgIcon-root {
+  fill: var(--primary-color);
+}
+.actionbutton:hover .actionbutton__iconlabel {
+  color: white;
+}
+
+.actionbutton:hover .actionbutton__icon .MuiSvgIcon-root {
+  fill: white;
+}
+.actionbutton .MuiIconButton-root:hover {
+  background-color: transparent;
+}
+
+.actionbutton__icon {
+  gap: 0.5rem;
+}
+
+/* .actionbutton__icon .MuiSvgIcon-root {
+  fill: #5e77c2;
+} */
+
+.actionbutton__iconlabel {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-size: 0.875rem;
+  color: var(--primary-color);
+  padding: 0rem 0.5rem;
+  font-weight: 600;
+}
+
+.actionbutton__icon.Mui-disabled {
+  opacity: 0.7;
+}
+.actionbutton .MuiIconButton-root {
+  padding: 7px;
+}

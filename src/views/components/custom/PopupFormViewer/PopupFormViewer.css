@@ -1,0 +1,368 @@
+.PopupFormViwer {
+  position: fixed;
+  z-index: 1200;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popupformviewer {
+  display: flex;
+  background: #ffffff;
+  border: 0px solid #d6d6d6;
+  /* flex-direction: column;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  padding: 10px; */
+}
+.PopupFormViewer_Modal {
+  background: red;
+}
+.formtitle {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.formtitle__title {
+  font-weight: 600;
+  color: #303030;
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+}
+
+.formtitle__subtitle {
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+  color: #303030;
+}
+
+.PopupFormViwer .formcolumns {
+  display: grid;
+  gap: 10px;
+}
+
+.PopupFormViwer .formsections {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 10px;
+  width: 98%;
+}
+.PopupFormViwer .section-columns .Wrapper__timelinetab {
+  width: 65%;
+}
+
+.PopupFormViwer .formcolumn {
+  display: grid;
+}
+
+.PopupFormViwer .formsection {
+  display: grid;
+}
+
+.itemwidth {
+  width: 100%;
+}
+.PopupFormViwer .section-columns {
+  display: grid;
+  background: #ffffff;
+  border: 0px solid #d6d6d6;
+  /* border: 1px solid #acacac;
+  border-radius: 4px; */
+  padding: 6px;
+  gap: 10px;
+}
+
+.PopupFormViwer .section-column {
+  display: grid;
+  gap: 18px;
+}
+
+.popupformviewer__save {
+  background: var(--secondary-color);
+  margin-left: auto;
+}
+
+.popupformviewer__save .actionbutton__iconlabel {
+  color: #ffffff;
+}
+.popupformviewer__save .actionbutton__icon .MuiSvgIcon-root {
+  fill: #ffffff;
+}
+
+.PopupFormViwer .syslistgrid {
+  height: 250px;
+  width: 100%;
+}
+.PopupFormViwer .ag-theme-balham {
+  padding-left: 0rem;
+  padding-right: 0rem;
+}
+.PopupFormViwer .textbox .popupformviewer_Field .MuiFilledInput-input {
+  background: #efeeee;
+}
+.popupformviewer__UserSelectable {
+  width: 10%;
+  padding-top: 4px;
+}
+.formviewer__UserSelectable .MuiInputLabel-outlined.MuiInputLabel-shrink {
+  transform: translate(14px, -4px) scale(0.75);
+}
+.popupformviewer__UserSelectable_Displaynone {
+  display: none;
+}
+.popupformviewer__UserSelectable .MuiFormControl-fullWidth {
+  width: 100%;
+  height: 35px;
+  background: white;
+  border-radius: 8px;
+}
+.PopupFormViwer .PopupFormViewer_Modal .div-field {
+  margin: 0.437rem 0.437rem 0.437rem 0rem !important;
+  width: 100%;
+}
+.PopupFormViewer_Modal .div-field .RecordPayment_Btn {
+  width: 6.563rem;
+}
+
+.PopupFormViewer_Modal .div-field-transfer .RecordTransfer_Btn {
+  width: 7.813rem;
+}
+
+.PopupFormViewer_Modal
+  .addmodal__content
+  .datetimepickers
+  .MuiInputAdornment-positionEnd,
+.PopupFormViewer_Modal
+  .addmodal__content
+  .dateandtimepickers
+  .MuiInputAdornment-positionEnd {
+  /* margin-left: 0px; */
+  right: 0.562rem;
+  padding: 0rem;
+  margin: 0rem;
+  margin-left: 0rem;
+}
+.PopupFormViewer_Modal
+  .addmodal__content
+  .formcolumns
+  .datetimepickers
+  .MuiIconButton-root,
+.PopupFormViewer_Modal
+  .addmodal__content
+  .formcolumns
+  .dateandtimepickers
+  .MuiIconButton-root {
+  padding: 0.125rem;
+  margin: 0rem 0.125rem 0rem 0rem;
+}
+.PopupFormViwer .addmodal__content .datetimepickers .MuiFilledInput-input,
+.PopupFormViwer .addmodal__content .dateandtimepickers .MuiFilledInput-input {
+  padding: 0.281rem 0.75rem;
+  color: var(--controltext-colour);
+  font-size: 0.875rem !important;
+  font-family: Segoe UI Regular;
+}
+.PopupFormViewer_Modal
+  .addmodal__content
+  .formcolumns
+  .form-element
+  .datetimepickers,
+.PopupFormViewer_Modal
+  .addmodal__content
+  .formcolumns
+  .form-element
+  .dateandtimepickers {
+  padding-top: 0rem;
+}
+.PopupFormViwer .datetimepickers .MuiInputLabel-shrink,
+.PopupFormViwer .dateandtimepickers .MuiInputLabel-shrink {
+  margin: -0.143rem -0.143rem -0.143rem -0.05rem;
+}
+.PopupFormViwer .addmodal__content .datetimepickers .FFdatepicker_root,
+.PopupFormViwer
+  .addmodal__content
+  .dateandtimepickers
+  .FFDateandTimePicker_root {
+  border: none;
+  height: auto;
+}
+.PopupFormViwer .addmodal__content .datetimepickers .MuiFilledInput-root,
+.PopupFormViwer .addmodal__content .dateandtimepickers .MuiFilledInput-root {
+  border: 1px solid var(--controlborder-colour);
+  margin-top: 1.25rem;
+  height: 35px;
+}
+.PopupFormViwer .MuiFilledInput-root {
+  background-color: white;
+  color: var(--controltext-colour);
+}
+.MuiInputAdornment-positionEnd .PopupFormViewer_Modal .div-container {
+  width: 65%;
+}
+.PopupFormViewer_Modal .addmodal {
+  width: 25%;
+}
+.PopupFormViewer_Modal .transferPayment_Model .addmodal {
+  width: 100% !important;
+}
+
+.PopupFormViewer_Modal .Payment_Modal .addmodal {
+  width: 100% !important;
+}
+.PopupFormViewer_Modal .btn {
+  width: 100%;
+}
+.PopupFormViewer_Modal .upload-btn-wrapper {
+  width: 100%;
+}
+.PopupFormViewer_Modal .Grid-Activity {
+  width: 95%;
+}
+.PopupFormViewer_Modal .addmodal__content .datetimepickers {
+  /* padding-left: 15px; */
+  width: 100%;
+}
+.PopupFormViewer_Modal .Grid-Activity .dropdown {
+  width: 22.5rem;
+}
+.PopupFormViewer_Modal .Grid-Activity .textbox .MuiInputBase-multiline {
+  width: 21.75rem;
+}
+.PopupFormViewer_Modal .Activitybutton {
+  width: 100%;
+  padding-left: 23px;
+}
+.PopupFormViewer_Modal .ActivityField_Btn_SaveField {
+  width: 9rem;
+}
+.PopupFormViewer_Modal .MuiTabs-flexContainer {
+  overflow: auto;
+}
+.PopupFormViewer_Modal .Past__tabItems_app {
+  width: 80%;
+}
+.PopupFormViewer_Modal
+  .Wrapper__timelinetab
+  .Past__tabItems
+  .MuiTabs-flexContainer {
+  overflow: auto;
+  width: 75%;
+}
+.PopupFormViewer_Modal .form-element {
+  /* width: 65%; */
+  width: 100%;
+}
+.PopupFormViewer_Modal .activity {
+  /* width: 65%; */
+}
+.PopupFormViewer_Modal .div-container-transfer {
+  width: 100%;
+}
+.PopupFormViewer_Modal .div-field-transfer {
+  width: 100%;
+  margin-left: 0px;
+}
+.PopupFormViewer_Modal .RecordTransfer_Btn {
+  width: 100%;
+}
+.div-container {
+  /* width: 65%; */
+}
+/* .popupformviewer__save .actionbutton__iconlabel {
+  color: var(--secondary-color);
+}
+
+.popupformviewer .textbox .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  word-break: break-all;
+}
+.popupformviewer .textbox .MuiFilledInput-root.Mui-disabled {
+  margin-top: 2.5rem;
+}
+*/
+.popupformviewer .Tab-container .MuiTabs-root {
+  overflow: auto;
+}
+
+.popupform_expand {
+  margin-left: 50%;
+}
+
+.PopupformViewer_title {
+  padding-top: 50px;
+}
+
+.popupformviewer.dropdown {
+  padding-left: 0.23%;
+  width: 100.29%;
+  margin-left: 1.29%;
+}
+.popupformviewer .MuiFormControl-root.dropdown .MuiFilledInput-root {
+  margin-top: 20px;
+  /* border-radius: 8px; */
+  /* margin-left: 1.29%; */
+  width: 100%;
+}
+.popupformviewer
+  .MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  transform: none;
+  color: var(--controllabel-colour);
+  margin: -0.127rem -0.135rem -0.135rem -0.05rem;
+}
+.popupformviewer.label#demo-simple-select-outlined-label {
+  padding-left: 2.29%;
+}
+.PopupFormViwer .addmodal__header {
+  padding: 1.5rem 1.5rem 1.5rem 1.355rem;
+}
+.PopupFormViwer
+  .popupformviewer
+  .MuiFormControl-root.dropdown
+  .MuiInputLabel-filled.MuiInputLabel-shrink {
+  transform: none;
+  /* color: #838383; */
+  color: var(--controllabel-colour);
+  margin: -0.1rem -0.1rem -0.1rem -0.05rem;
+  /* padding-left: 2.29%; */
+}
+.PopupFormViwer
+  .section-column
+  .textbox
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin: -0.1rem -0.1rem -0.1rem -0.05rem;
+}
+.PopupFormViwer .section-columns .autocompletectrl,
+.PopupFormViwer .section-columns .textbox,
+.PopupFormViwer .section-columns .datetimepickers,
+.PopupFormViwer .section-columns .dateandtimepickers {
+  margin: 0.1375rem 0rem;
+}
+.PopupFormViwer .section-column .MuiAutocomplete-root.autocomplete {
+  padding: 0rem;
+  margin: 0rem;
+}
+.PopupFormViwer
+  .section-column
+  .popupformviewer
+  .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense {
+  margin-top: 1.25rem;
+  padding: 0rem;
+}
+.PopupFormViwer .Grid-Activity .MuiAutocomplete-root.autocomplete {
+  padding-left: 0.937rem;
+}
+.PopupFormViwer .Grid-Activity .datetimepickers {
+  padding-left: 0.937rem;
+  padding-top: 0.937rem;
+}
+
+.PopupFormViwer
+  .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense {
+  width: 100.3%;
+  margin-left: 0.3px;
+}

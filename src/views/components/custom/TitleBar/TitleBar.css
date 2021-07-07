@@ -1,0 +1,146 @@
+.titleBar-root {
+  background: var(--titlebar-color);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 3.3rem;
+  padding: 0rem 1rem;
+  gap: 1rem;
+}
+
+.titleBar-title:before {
+  content: var(--title-Bar-Name);
+}
+
+.titleBar-title {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  color: var(--titlebarIcon-color);
+  flex-grow: 2;
+  white-space: nowrap;
+}
+
+.titleBar-Search {
+  width: 100%;
+}
+
+.titleBar-icon {
+  /* width: 18.125rem; */
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.titleBar-iconList {
+  text-align: center;
+  color: var(--titlebarIcon-color);
+  margin-left: 32px;
+}
+
+.titleBar-root .titleBarUser-avatar,
+.titleBar-root .titleBarPage-logout {
+  cursor: pointer;
+  display: flex;
+  padding: 10px 0px 0px 10px;
+}
+
+.titleBar-root .titleBarUser-avatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.titleBar-root .titleBarUser-avatar .titleBarUser-info {
+  visibility: hidden;
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 6px;
+  top: 100%;
+  position: absolute;
+  padding: 0.5rem;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  line-height: 20px;
+  z-index: 1;
+  right: 10px;
+  width: 250px;
+}
+.titleBarUser-info {
+  font-size: 0.875rem;
+}
+
+.titleBar-root .titleBarUser-avatar .titleBarUser-info::after {
+  content: ' ';
+  position: absolute;
+  bottom: 100%; /* At the top of the tooltip */
+  left: 50%;
+  /* margin-left: -5px; */
+  margin-left: 112px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.titleBar-root .titleBarUser-avatar:hover .titleBarUser-info {
+  visibility: visible;
+}
+
+.mainDivTitleBar {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+}
+
+.subTitlebar {
+  display: flex;
+  flex-flow: column;
+  /* justify-content: flex-end; */
+}
+.subTitleName {
+  padding: 15px 15px;
+  font-family: Segoe UI;
+}
+.ffavatar
+  .MuiAvatar-root
+  .MuiAvatar-circle
+  .ffavatar__avatar-image
+  .MuiAvatar-colorDefault {
+  height: 1.88rem;
+}
+.innerDiv {
+  padding: 0px 0px 0px 5px;
+  align-self: center;
+  font-family: Segoe UI;
+  font-size: 0.875rem;
+}
+
+.ffavatar .MuiAvatar-root.L-Avatar {
+  height: 80px;
+  width: 80px;
+  font-size: 3rem;
+}
+.ffavatar .MuiAvatar-root.Main-Avatar {
+  height: 1.88rem;
+  width: 1.88rem;
+  top: -5px;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1360px) {
+  .titleBar-Search {
+    padding-left: 5rem;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .titleBar-Search {
+    /* padding-left: 8rem */
+  }
+}

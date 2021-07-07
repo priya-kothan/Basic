@@ -1,0 +1,38 @@
+.FFButton {
+  /* min-width: 68px;
+   height: 40px; */
+  display: flex;
+  /* background: #3655b3; */
+  /* background: #4c54bd; */
+  border-radius: 8px;
+  border-radius: 0.5rem;
+  color: white;
+  /* padding: 0px 10px; */
+}
+
+.button.MuiButton-root,
+.button.MuiButton-root {
+  border-radius: 3px;
+  text-transform: none;
+  font-family: 'Segoe UI';
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 6x 16px;
+  width: 90px;
+  height: 32px;
+  background-color: var(--button-color);
+}
+
+.button,
+.button.MuiButton-root:hover,
+.button.MuiButton-root:disabled {
+  background-color: var(--button-color);
+  color: #ffffff;
+}
+
+.button.btn--secondary,
+.button.btn--secondary.MuiButton-root:hover {
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+  background-color: #ffffff;
+}

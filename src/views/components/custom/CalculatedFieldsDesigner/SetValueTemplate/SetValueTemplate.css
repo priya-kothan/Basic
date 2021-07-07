@@ -1,0 +1,36 @@
+.setvalue-template {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.setvalue-template_header {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.setvalue-template_header:hover .setvalue-template_remove {
+  display: inline;
+}
+
+.setvalue-template_header:hover .setvalue-template_remove:hover {
+  background: transparent;
+}
+
+.setvalue-template_header:hover .setvalue-template_remove .MuiSvgIcon-root {
+  color: red;
+}
+
+.setvalue-template_remove {
+  display: none;
+  padding: 0;
+}
+
+.setvalue-template .textbox .MuiFormLabel-root {
+  display: none;
+}
+
+.setvalue-template .textbox .MuiFilledInput-root {
+  margin: 0;
+}

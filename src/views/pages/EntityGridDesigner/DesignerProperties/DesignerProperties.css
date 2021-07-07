@@ -1,0 +1,33 @@
+.entitygrid-designer__properties {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 25%;
+  background: #ffffff;
+  padding: 1rem;
+  gap: 1rem;
+  overflow-y: auto;
+  /* margin-top: 2rem; */
+  /* height: calc(100% - 2rem); */
+}
+
+.entitygrid-designer__properties_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.entitygrid-designer__properties_title {
+  font-weight: 600;
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+  margin-left: -0.062rem;
+}
+
+.entitygrid-designer__properties_icon .MuiIconButton-root {
+  padding: 0px;
+}
+.FilterDesigner .MuiInputLabel-outlined.MuiInputLabel-marginDense {
+  word-break: break-all;
+  font-size: 0.875rem;
+  width: 86%;
+}

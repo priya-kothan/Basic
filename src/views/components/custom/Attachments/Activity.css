@@ -1,0 +1,308 @@
+.Wrapper-container {
+  border: 1px solid #acacac;
+  /* height: 15.6875rem; */
+  overflow: auto;
+}
+
+.activityheader {
+  padding: 0.6875rem;
+  font-size: 0.875rem;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+}
+.Tab-container .MuiAppBar-colorDefault {
+  background: #ffffff;
+}
+.Tab-container .FFTabs-root .MuiTab-root {
+  min-width: 6.25rem;
+  min-height: 1px;
+}
+.Tab-container .MuiTabs-root {
+  height: 2rem;
+  min-height: 1rem;
+}
+.Tab-container .MuiTabs-scroller {
+  height: 1.875rem;
+}
+.Tab-container .FFTabcontrol.Mui-selected {
+  color: #000000;
+  font-weight: bold;
+}
+.Tab-container .FFTabcontrol .MuiTab-wrapper {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 20px;
+  /* font-family: 'SF Pro Display'; */
+  font-family: Segoe UI;
+  text-transform: capitalize;
+  letter-spacing: unset;
+}
+.PrivateTabIndicator-colorSecondary-3 {
+  background-color: transparent;
+}
+.Grid-Activity {
+  padding: 10px;
+
+  /* margin-right: 25px;
+  transform: translate(0px, -3px) scale(1); */
+}
+.Grid-Activity .textbox {
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.ActivityField_Btn_SaveField {
+  transform: translate(0px, 17px) scale(1);
+  /* width: 200px; */
+  height: 48px;
+  /* padding: 10px;
+  background: var(--primary-color);
+  border-radius: 8px;
+  color: #ffffff;
+  /* width: 7.8125rem; */
+}
+.Activitybutton {
+  padding-top: 24px;
+  padding-left: 15px;
+  padding-bottom: 25px;
+}
+/* .Grid-Activity .datetimepickers {
+  padding-left: 0px;
+  padding-top: 35px;
+}
+.datetimepickers .FFdatepicker_root {
+  width: 100%;
+  height: 3rem;
+}
+.datetimepickers .FFdatepicker_root .MuiButtonBase-root.MuiIconButton-root {
+  padding-top: 0;
+  margin: 0 0 0 48px;
+}
+.datetimepickers .FFdatepicker_root .MuiInputLabel-formControl {
+  align-self: auto;
+  transform: none;
+  padding: 5px;
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: #838383;
+  margin: -2px 0 0 0px;
+  position: absolute;
+
+  transform: translate(0px, -27px);
+}
+.datetimepickers
+  .FFdatepicker_root
+  .MuiInputBase-input.MuiInput-input.MuiInputBase-inputAdornedEnd {
+  padding: 8px;
+  align-self: flex-end;
+  font-size: 13px;
+  padding-left: 0px;
+  padding-bottom: 4px;
+} */
+
+.Grid-Activity .datetimepickers {
+  padding-top: 30px;
+  padding-left: 15px;
+  width: 14.6875rem;
+}
+
+.Activitybutton .Description {
+  padding-top: 15px;
+  padding-left: 0px;
+}
+.Grid-Activity .FFMultilineTextbox-root {
+  padding-top: 15px;
+  padding-left: 17px;
+}
+
+.Grid-Activity .FFMultilineTextbox-root .MuiFormControl-root {
+  width: 260px;
+  /* border-radius: 8px; */
+}
+.Grid-Activity .datetimepickers .MuiFilledInput-input {
+  padding: 12px 0px 10px;
+  font-size: 0.875rem;
+  font-family: Segoe UI Regular;
+  color: var(--controltext-colour);
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  padding: 12px 0 0 6px;
+  transform: translate(-1px, 14px) scale(1);
+  width: 8rem;
+  /* height: 2.69rem; */
+}
+.btn {
+  color: var(--button-color);
+  border: 1px solid var(--button-color);
+  background-color: white;
+  padding: 7px 20px;
+  border-radius: 3px;
+  margin: -3px 0 0 0;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: 32px;
+}
+
+.upload-btn-wrapper input[type='file'] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.FFSelect_root .MuiInputBase-input {
+  width: 100%;
+  padding: 12px 12px 10px;
+}
+
+.activity .MuiTabs-indicator {
+  background-color: var(--primary-color);
+}
+.sysParentEntityID {
+  display: none;
+}
+.sysParentEntityType {
+  display: none;
+}
+.FieldName {
+  display: none;
+}
+.OriginalFileName {
+  display: none;
+}
+.OriginalFileType {
+  display: none;
+}
+.URL {
+  display: none;
+}
+.Size {
+  display: none;
+}
+.Timestamp {
+  display: none;
+}
+.ProfilePicture {
+  display: none;
+}
+.Id {
+  display: none;
+}
+.id {
+  display: none;
+}
+.Type {
+  display: none;
+}
+.Contract {
+  display: none;
+}
+.StoreType {
+  display: none;
+}
+
+.Grid-Activity .FFSelect_root .AttactementField {
+  margin: 15px 11px;
+}
+.AttachmentDateTime {
+  display: none;
+}
+.CreatedOn {
+  display: none;
+}
+.Organisation {
+  display: none;
+}
+.LastUpdatedDate {
+  display: none;
+}
+
+.Grid-Activity .MuiFormControl-root.dropdown .MuiInputLabel-filled {
+  transform: inherit;
+  /* color: #838383; */
+  padding-top: 20px;
+  padding-left: 22px;
+  margin-top: -1.365rem;
+  font-size: 0.875rem;
+  font-family: Segoe ui;
+}
+.formviewer
+  .formcolumns
+  .Grid-Activity
+  .MuiFormControl-root.dropdown
+  .MuiInputLabel-filled {
+  margin: -1.365rem -1.4rem -1.4rem -1.4rem;
+}
+.PopupFormViwer
+  .formcolumns
+  .Grid-Activity
+  .MuiFormControl-root.dropdown
+  .MuiInputLabel-filled {
+  margin-left: -1rem;
+}
+
+.Grid-Activity .dropdown {
+  width: 16rem;
+
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.Grid-Activity.AssignedTo {
+  width: 20.6875rem;
+}
+
+.Grid-Activity .textbox .MuiInputBase-multiline {
+  width: 19.75rem;
+}
+
+/* .Grid-Activity .datetimepickers .MuiInputLabel-shrink {
+  transform: translate(13px, -6px) scale(0.75);
+  background: white;
+  padding: 0px 7px 0 7px;
+}
+
+.Grid-Activity .datetimepickers .MuiInputLabel-shrink {
+  margin: 0px 0 0 0;
+} */
+.Grid-Activity .datetimepickers .MuiInputLabel-filled.MuiInputLabel-shrink {
+  transform: none;
+  color: var(--controllabel-colour);
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+.Grid-Activity .datetimepickers .MuiInputLabel-shrink {
+  margin: -22px 0 0 0;
+}
+.Grid-Activity .datetimepickers .MuiFilledInput-root {
+  height: 28px;
+  background: white;
+}
+
+.Grid-Activity .dropdown .MuiSelect-root {
+  /* padding: 0.85rem; */
+}
+
+.Grid-Activity .dropdown .MuiOutlinedInput-root {
+  padding-right: 1rem;
+}
+/* .Grid-Activity .datetimepickers .MuiFilledInput-input {
+  padding: 15px 12px 10px;
+}
+.Grid-Activity .datetimepickers .MuiFilledInput-root {
+  background-color: #ffffff;
+ 
+} */
+.Grid-Activity .autocomplete {
+  padding-left: 15px;
+  padding-top: 15px;
+}

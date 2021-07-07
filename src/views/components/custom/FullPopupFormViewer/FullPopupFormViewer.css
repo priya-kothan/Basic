@@ -1,0 +1,268 @@
+.FullPopupFormViwer {
+  position: fixed;
+  z-index: 1200;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.fullpopupformviewer {
+  display: flex;
+  background: #ffffff;
+  border: 0px solid #d6d6d6;
+  /* flex-direction: column;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  padding: 10px; */
+}
+
+.fullpopup_formcolumns {
+  display: grid;
+  gap: 10px;
+}
+
+.fullpopup_formsections {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 10px;
+  width: 98%;
+}
+
+.fullpopup_formcolumns {
+  display: grid;
+}
+
+.fullpopup_formsection {
+  display: grid;
+}
+
+.popupformviewer__save {
+  background: var(--secondary-color);
+  margin-left: auto;
+}
+
+.popupformviewer__save .actionbutton__iconlabel {
+  color: #ffffff;
+}
+.popupformviewer__save .actionbutton__icon .MuiSvgIcon-root {
+  fill: #ffffff;
+}
+.textbox .FormViewer_Field .MuiFilledInput-input {
+  background: #efeeee;
+}
+.fullpopup_section-columns {
+  display: grid;
+  background: #ffffff;
+  border: 1px solid #acacac;
+  border-radius: 4px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.fullpopup_section-column {
+  display: grid;
+  gap: 10px;
+}
+.fullpopup_subtitle {
+  padding-top: 2rem;
+  font-weight: normal;
+  padding-right: 2rem;
+  width: auto;
+}
+
+.footer_fullPopupViewer .addmodal__footer {
+  margin-left: 78%;
+  border-top: none;
+}
+
+.FullPopupFormViwer .ActivityField_Btn_SaveField {
+  width: 9rem;
+}
+
+.FullPopupFormViwer .div-field .RecordPayment_Btn {
+  width: 6.563rem;
+}
+
+button#Transfer\ Payment {
+  /* width: 7.813rem; */
+  width: fit-content;
+  bottom: 13px;
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .fullpopupform_expand {
+    margin-left: 75%;
+  }
+}
+
+@media screen and (min-width: 1361px) and (max-width: 1600px) {
+  .fullpopupform_expand {
+    margin-left: 70%;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1360px) {
+  .fullpopupform_expand {
+    margin-left: 68%;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .fullpopupform_expand {
+    margin-left: 65%;
+  }
+}
+.FullPopupFormViwer .syslistgrid {
+  height: 250px;
+}
+.Fullpopup_autocomplete {
+  width: 180px;
+}
+
+.fullpopup_subtitle1 {
+  display: flex;
+}
+
+.FullPopupFormViwer
+  .MuiAutocomplete-root.autocomplete.undefined.MuiAutocomplete-hasPopupIcon {
+  padding-left: 0rem;
+}
+.FullPopupFormViwer.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense {
+  /* width: 100.2%; */
+}
+/* .FullPopupFormViwer label#demo-simple-select-outlined-label {
+  padding-left: 0.2%;
+} */
+.FullPopupFormViwer .MuiFormControl-root.dropdown .MuiFilledInput-root {
+  margin-top: 20px;
+  /* border-radius: 8px; */
+  /*  margin-left: 0.2%; */
+  width: 100%;
+}
+.FullPopupFormViwer
+  .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense {
+  width: 100.2%;
+}
+/* .FullPopupFormViwer
+  .fullpopup_section-column
+  .MuiFormControl-root.dropdown
+  .MuiInputLabel-filled.MuiInputLabel-shrink {
+  margin: -0.1rem;
+} */
+
+.FullPopupFormViwer .fullpopup_formsections .form-element {
+  margin-top: 0.234rem;
+  margin-bottom: 0.234rem;
+}
+.FullPopupFormViwer
+  .addmodal__content
+  .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-filled.MuiFormLabel-filled,
+.FullPopupFormViwer
+  .MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  color: var(--controllabel-colour);
+}
+.FullPopupFormViwer .fullpopup_section-column .autocompletectrl,
+.FullPopupFormViwer .fullpopup_section-column .textbox,
+.FullPopupFormViwer .fullpopup_section-column .datetimepickers,
+.FullPopupFormViwer .fullpopup_section-column .dateandtimepickers {
+  margin: 0.137rem 0rem;
+}
+
+.FullPopupFormViwer
+  .addmodal__content
+  .datetimepickers
+  .MuiInputAdornment-positionEnd,
+.FullPopupFormViwer
+  .addmodal__content
+  .dateandtimepickers
+  .MuiInputAdornment-positionEnd {
+  /* margin-left: 0px; */
+  right: 0.562rem;
+  padding: 0rem;
+  margin: 0rem;
+  margin-left: 0rem;
+}
+.FullPopupFormViwer
+  .addmodal__content
+  .fullpopup_section-columns
+  .datetimepickers
+  .MuiIconButton-root,
+.FullPopupFormViwer
+  .addmodal__content
+  .fullpopup_section-columns
+  .dateandtimepickers
+  .MuiIconButton-root {
+  padding: 0.125rem;
+  margin: 0rem 0.125rem 0rem 0rem;
+}
+.FullPopupFormViwer .addmodal__content .datetimepickers .MuiFilledInput-input,
+.FullPopupFormViwer
+  .addmodal__content
+  .dateandtimepickers
+  .MuiFilledInput-input {
+  padding: 0.281rem 0.75rem;
+  color: var(--controltext-colour);
+  font-size: 0.875rem !important;
+  font-family: Segoe UI Regular;
+}
+.FullPopupFormViwer
+  .addmodal__content
+  .fullpopup_section-column
+  .datetimepickers,
+.FullPopupFormViwer
+  .addmodal__content
+  .fullpopup_section-column
+  .dateandtimepickers {
+  padding-top: 0rem;
+}
+.FullPopupFormViwer .datetimepickers .MuiInputLabel-shrink,
+.FullPopupFormViwer .dateandtimepickers .MuiInputLabel-shrink {
+  margin: -0.143rem;
+}
+.FullPopupFormViwer .addmodal__content .datetimepickers .FFdatepicker_root,
+.FullPopupFormViwer
+  .addmodal__content
+  .dateandtimepickers
+  .FFDateandTimePicker_root {
+  border: none;
+  height: auto;
+}
+.FullPopupFormViwer .addmodal__content .datetimepickers .MuiFilledInput-root,
+.FullPopupFormViwer
+  .addmodal__content
+  .dateandtimepickers
+  .MuiFilledInput-root {
+  border: 1px solid var(--controlborder-colour);
+  margin-top: 1.25rem;
+  height: 35px;
+}
+.FullPopupFormViwer .MuiFilledInput-root {
+  background-color: white;
+  color: var(--controltext-colour);
+}
+.FullPopupFormViwer .Grid-Activity .datetimepickers,
+.FullPopupFormViwer .Grid-Activity .dateandtimepickers {
+  padding-top: 0.937rem;
+  padding-left: 0.937rem;
+  width: 14.6875rem;
+}
+.FullPopupFormViwer
+  .Grid-Activity
+  .MuiFormControl-root.dropdown
+  .MuiInputLabel-filled {
+  padding-left: 0rem;
+}
+.FullPopupFormViwer
+  .fullpopup_section-column
+  .MuiInputLabel-filled.MuiInputLabel-marginDense,
+.FullPopupFormViwer .fullpopup_section-column .MuiInputLabel-shrink {
+  margin: -0.115rem -0.1rem -0.1rem -0.1rem; /* margin: -0.143rem; */
+}
+.FullPopupFormViwer .FullPopupFormViewer_Modal .addmodal__header {
+  padding: 1.5rem 1.5rem 1.5rem 1.625rem;
+}

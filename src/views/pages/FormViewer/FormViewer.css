@@ -1,0 +1,412 @@
+.formviewer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d6d6d6;
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.formtitle {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.formtitle__title {
+  font-weight: 600;
+
+  color: #303030;
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+}
+
+.formtitle__subtitle {
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+  color: #303030;
+}
+
+.formviewer .formcolumns {
+  display: grid;
+  gap: 10px;
+}
+
+.formviewer .formsections {
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 10px;
+}
+
+.formviewer .formcolumn {
+  display: grid;
+}
+
+.formviewer .formsection {
+  display: grid;
+}
+
+.formviewer .section-columns {
+  display: grid;
+  background: #ffffff;
+  border: 1px solid #acacac;
+  border-radius: 4px;
+
+  gap: 10px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.formviewer .section-column {
+  display: grid;
+  gap: 10px;
+  padding-bottom: 8px;
+}
+
+.formviewer__save {
+  background: var(--secondary-color);
+  margin-left: auto;
+}
+
+.formviewer__save .actionbutton__iconlabel {
+  color: #ffffff;
+}
+.formviewer__save .actionbutton__icon .MuiSvgIcon-root {
+  fill: #ffffff;
+}
+
+.formviewer .syslistgrid {
+  height: 250px;
+}
+.formviewer .textbox .FormViewer_Field .MuiFilledInput-input {
+  background: #efeeee;
+}
+.formviewer__UserSelectable {
+  width: 10%;
+  padding-top: 4px;
+}
+
+.formviewer__UserSelectable .MuiInputLabel-outlined.MuiInputLabel-shrink {
+  transform: translate(14px, -4px) scale(0.75);
+}
+.formviewer__UserSelectable_Displaynone {
+  display: none;
+}
+.formviewer__UserSelectable .MuiFormControl-fullWidth {
+  width: 100%;
+  height: 35px;
+  background: white;
+  /* border-radius: 8px; */
+}
+
+.formviewer .ActivityField_Btn_SaveField {
+  width: 9rem;
+}
+
+.formviewer .div-field .RecordPayment_Btn {
+  width: 6.563rem;
+}
+
+button#Transfer\ Payment {
+  /* width: 7.813rem; */
+  width: fit-content;
+  bottom: 13px;
+}
+
+button#ActivityField_Btn_SaveField {
+  top: 1px;
+}
+
+/* .MuiFilledInput-root {
+  margin: 0px 0px 5px 0px;
+} */
+
+/* .formviewer__save .actionbutton__iconlabel {
+  color: var(--secondary-color);
+}
+
+.formviewer .textbox .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  word-break: break-all;
+}
+.formviewer .textbox .MuiFilledInput-root.Mui-disabled {
+  margin-top: 2.5rem;
+}
+*/
+/* .MuiAutocomplete-root {
+  margin-top: 2.5px;
+} */
+/* .MuiAutocomplete-root.autocomplete
+  .MuiTextField-root
+  .MuiAutocomplete-inputRoot {
+  height: 2.3rem;
+} */
+
+.formviewer
+  .MuiAutocomplete-root
+  .autocomplete
+  .undefined
+  .MuiAutocomplete-hasPopupIcon {
+  padding: 3px;
+}
+
+.formviewer .MuiInputBase-root {
+  background-color: #ffffff;
+}
+.formviewer .form-element {
+  margin-top: 0.063rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  /* border-bottom: 1px solid black; */
+}
+.formviewer
+  .form-element
+  .MuiFormControl-root.dropdown
+  .MuiInputLabel-filled.MuiInputLabel-shrink {
+  margin-top: -0.1rem;
+}
+.formviewer .form-element .textbox {
+  margin: 0px 0px 0px 0px;
+}
+
+.formviewer .form-element .dropdown {
+  margin: 0px 0px 0px 0px;
+}
+.formviewer .form-element .autocomplete {
+  margin: 0px 0px 0px 0px; /* 0px 0px 0px 6.8px; */
+}
+.formviewer .form-element .textbox {
+  gap: 0rem;
+}
+.formviewer .form-element .dateandtimepickers .FFDateandTimePicker_root {
+  margin-left: 0px;
+}
+.formviewer .form-element span.Formviwer-Label {
+  margin-left: -1px;
+}
+span.FormviwerFFDropdown-Label {
+  margin-left: -1px;
+}
+.formviewer .form-element .switch__label {
+  margin-left: -1px;
+}
+.emptyline {
+  width: 100%;
+  height: 1px;
+  background-color: var(--RowBorder-Colour);
+  border: none;
+}
+
+/* .form-element .formviewer .MuiAutocomplete-root.autocomplete .MuiTextField-root .MuiAutocomplete-inputRoot
+{
+ margin: 0 0 0 4px;
+} */
+.Formviwer.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-marginDense.MuiInput-marginDense,
+.formviewer
+  .section-column
+  .form-element
+  .datetimepickers
+  .MuiFilledInput-input {
+  margin: 0rem 0rem 0rem 0rem;
+  height: 35px;
+  /* border: none; */
+}
+.Formviwer.undefined.MuiAutocomplete-hasPopupIcon {
+  padding-top: 5px;
+}
+.Formviwer label + .MuiInput-formControl {
+  margin-top: 5px;
+}
+.Formviwer label + .MuiInput-formControl {
+  margin-top: 5px;
+}
+.formviewer .form-element .autocompletectrl {
+  height: 42px;
+}
+.formviewer .form-element .datetimepickers,
+.formviewer .form-element .dateandtimepickers {
+  padding-top: 5px;
+}
+.formviewer .form-element .MuiFormControl-root.dropdown {
+  padding-top: 5px;
+}
+.formviewer
+  .MuiAutocomplete-root.autocomplete.undefined.MuiAutocomplete-hasPopupIcon {
+  padding-left: 0px;
+}
+.formviewer .datetimepickers .FFdatepicker_root {
+  padding: 0px 0 0 10px;
+}
+.formviewer .form-element .datetimepickers .FFdatepicker_root {
+  padding: 0px 0 0 0px;
+}
+span.FormviwerFFAutocomplete-Label {
+  margin-top: 16px;
+  color: var(--controllabel-colour);
+  margin-left: -1px;
+}
+.dateandtimepickers .Formviwer-Label,
+.datetimepickers .Formviwer-Label {
+  margin-left: -1px;
+  margin-top: 10px;
+}
+
+.formviewer
+  .form-element
+  .autocompletectrl
+  .Formviwer.undefined.MuiAutocomplete-hasPopupIcon
+  .MuiAutocomplete-inputRoot {
+  /* background: aquamarine; */
+  margin: 0px 0 0 0px;
+}
+
+.Formviwer .MuiInputBase-inputMarginDense:hover {
+  border: none;
+}
+.Formviwer .Mui-focused {
+  border-radius: 0rem;
+}
+.formviewer
+  .form-element
+  .MuiFormControl-root.MuiTextField-root.FFdatepicker_root.undefined.Formviwer
+  :hover {
+  border: none;
+}
+.formviewer .form-element .datetimepickers .FFdatepicker_root {
+  border: none;
+}
+.formviewer .form-element .dateandtimepickers .Formviwer :hover {
+  border: none !important;
+}
+
+.formviewer
+  .form-element
+  .autocompletectrl
+  .Formviwer
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInput-fullWidth.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-adornedEnd.MuiInputBase-marginDense.MuiInput-marginDense:hover {
+  border: 1px solid var(--controlborder-colour);
+}
+.formviewer .form-element .textbox .Formviwer .MuiInputBase-formControl:hover {
+  border: 1px solid var(--controlborder-colour);
+}
+.formviewer
+  .form-element
+  .autocompletectrl
+  .Formviwer
+  .MuiSelect-root.MuiSelect-select.MuiSelect-selectMenu.MuiInputBase-input.MuiInput-input.MuiInputBase-inputMarginDense.MuiInput-inputMarginDense:hover {
+  border: 1px solid var(--controlborder-colour);
+}
+.formviewer
+  .form-element
+  .dateandtimepickers
+  .Formviwer
+  .MuiInputBase-root.MuiFilledInput-root.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd:hover {
+  border: 1px solid var(--controlborder-colour) !important;
+  border-radius: 0rem;
+}
+.formviewer
+  .form-element
+  .datetimepickers
+  .Formviwer
+  .MuiInputBase-root.MuiFilledInput-root.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd:hover {
+  border: 1px solid var(--controlborder-colour);
+}
+.formviewer
+  .form-element
+  .datetimepickers
+  .Formviwer
+  .MuiInputBase-root.MuiFilledInput-root,
+.formviewer
+  .form-element
+  .dateandtimepickers
+  .Formviwer
+  .MuiInputBase-root.MuiFilledInput-root {
+  height: 35px;
+}
+.formviewer
+  .form-element
+  .autocompletectrl
+  .Formviwer
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInput-fullWidth.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-adornedEnd.MuiInputBase-marginDense.MuiInput-marginDense:hover
+  .MuiAutocomplete-endAdornment {
+  display: block;
+}
+.formviewer .form-element .dateandtimepickers .MuiInputAdornment-root:hover,
+.formviewer .form-element .dateandtimepickers .MuiIconButton-root:hover,
+.formviewer .form-element .dateandtimepickers .MuiIconButton-label:hover,
+.formviewer .form-element .dateandtimepickers .MuiSvgIcon-root:hover {
+  border: none !important;
+}
+.formviewer .form-element .datetimepickers .MuiInputAdornment-root:hover,
+.formviewer .form-element .datetimepickers .MuiIconButton-root:hover,
+.formviewer .form-element .datetimepickers .MuiIconButton-label:hover,
+.formviewer .form-element .datetimepickers .MuiSvgIcon-root:hover {
+  border: none !important;
+}
+.Formviwer .MuiInputBase-root.Mui-disabled {
+  color: snow;
+  cursor: default;
+  /* border: 1px solid red; */
+  border: 1px solid;
+}
+
+/*****************************************************/
+.formviewer .section-column .form-element .textbox .MuiTextField-root {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.formviewer .datetimepickers .MuiFilledInput-input,
+.formviewer .dateandtimepickers .MuiFilledInput-input {
+  padding: 0px 0px 0px 5px;
+  height: 35px;
+}
+.formviewer .Grid-Activity .datetimepickers .MuiIconButton-root {
+  padding: 0.125rem;
+  margin: 0px 0.125rem 0px 0px;
+}
+.formviewer .Grid-Activity .datetimepickers .MuiFilledInput-input {
+  padding: 0.281rem 0.25rem;
+  color: var(--controltext-colour);
+  font-size: 0.875rem !important;
+  font-family: Segoe UI Regular;
+}
+.formviewer .Grid-Activity .datetimepickers,
+.formviewer
+  .Grid-Activity
+  .MuiAutocomplete-root.autocomplete.undefined.MuiAutocomplete-hasPopupIcon {
+  padding-top: 0.937rem;
+  padding-left: 0.937rem;
+}
+.formviewer .Grid-Activity .datetimepickers .MuiInputLabel-shrink {
+  margin: -0.1rem;
+}
+.formviewer .Grid-Activity .datetimepickers .FFdatepicker_root {
+  border: none;
+  height: auto;
+  padding-top: 0px;
+  padding-left: 0px;
+}
+.formviewer .Grid-Activity .datetimepickers .MuiFilledInput-root {
+  border: 1px solid var(--controlborder-colour);
+  margin-top: 1.25rem;
+  height: 35px;
+}
+.formviewer .form-element .dateandtimepickers .FFDateandTimePicker_root {
+  height: 35px;
+}
+.formviewer .form-element .textbox .Formviwer-Label {
+  margin-top: 7px;
+}
+.formviewer .form-element .switch__input {
+  width: 100%;
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+.formviewer .form-element .switch {
+  padding-top: 5px;
+}
+.formviewer .form-element .MuiSelect-root {
+  padding: 8px 24.5px 7px 4.5px;
+}

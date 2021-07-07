@@ -1,0 +1,182 @@
+.ruleGroup {
+  padding: 0.5rem;
+  border: 1px solid #7f81a2;
+  border-radius: 4px;
+  background: rgb(179 179 179/10%); /*rgba(1, 1, 1, 0.1);*/
+}
+.rule {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.625rem;
+}
+.ruleGroup {
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.ruleGroup-combinators .betweenRules {
+  margin-top: 0.5rem;
+}
+
+.ruleGroup-combinators .MuiInputLabel-outlined.MuiInputLabel-marginDense {
+  font-size: 0.875rem;
+}
+.FilterDesigner .ruleGroup-combinators {
+  width: 12%;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.FilterDesigner .ruleGroup-addRule {
+  margin-left: 1.5rem;
+  margin-top: 1.438rem;
+}
+
+.FilterDesigner .ruleGroup-addGroup {
+  margin-left: 0.5rem;
+  margin-top: 1.438rem;
+}
+.FilterDesigner .ruleGroup-entities {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  width: 20%;
+}
+.rule-remove,
+.ruleGroup-remove {
+  float: right;
+  margin-top: 1.438rem;
+}
+.FilterDesigner .ruleGroup .rule-value .dateandtimepickers {
+  padding-top: 0rem;
+}
+.FilterDesigner .ruleGroup .textbox {
+  margin: 0rem;
+}
+.rule-fields {
+  margin-left: 0.5rem;
+  width: 20%;
+}
+.rule-operators {
+  margin-left: 0.5rem;
+  width: 20%;
+}
+.rule-properties {
+  margin-left: 0.5rem;
+  width: 20%;
+}
+.rule-value {
+  width: 20%;
+  margin-left: 0.5rem;
+
+  /* border: 1px solid #727a87 !important; */
+}
+.entitygrid-designer .FilterDesigner .ruleGroup-addGroup {
+  margin-left: 0.5rem;
+  margin-top: 1.59rem;
+}
+.entitygrid-designer .FilterDesigner .ruleGroup-addRule {
+  margin-left: 0.5rem;
+  margin-top: 1.59rem;
+}
+.entitygrid-designer
+  .FilterDesigner
+  .ruleGroup
+  .rule-value
+  .dateandtimepickers {
+  padding-top: 0.188rem;
+}
+.entitygrid-designer .ruleGroup-remove {
+  float: right;
+  margin-top: 1.656rem;
+}
+.entitygrid-designer .rule-remove {
+  float: right;
+  margin-top: 1.625rem;
+}
+/* .rule-value .MuiFormControl-root {
+  margin-top: 4px;
+} */
+/* 
+.ruleGroup-entities .MuiInputLabel-root {
+  display: none;
+}
+.ruleGroup-combinators .MuiInputLabel-root {
+  display: none;
+}
+.rule-fields .MuiInputLabel-root {
+  display: none;
+}
+
+.rule-operators .MuiInputLabel-root {
+  display: none;
+}
+
+.ruleGroup-entities
+  .MuiAutocomplete-root.autocomplete
+  .MuiFormControl-root
+  .MuiFilledInput-root {
+  background: #ffffff;
+  border: 1px solid #5a616b;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+.ruleGroup-combinators
+  .MuiAutocomplete-root.autocomplete
+  .MuiFormControl-root
+  .MuiFilledInput-root {
+  background: #ffffff;
+  border: 1px solid #5a616b;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+.rule-fields
+  .MuiAutocomplete-root.autocomplete
+  .MuiFormControl-root
+  .MuiFilledInput-root {
+  background: #ffffff;
+  border: 1px solid #5a616b;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+.rule-operators
+  .MuiAutocomplete-root.autocomplete
+  .MuiFormControl-root
+  .MuiFilledInput-root {
+  background: #ffffff;
+  border: 1px solid #5a616b;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+
+.ruleGroup-entities
+  .MuiAutocomplete-root.autocomplete
+  .MuiTextField-root
+  .MuiAutocomplete-inputRoot {
+  height: 2.4rem;
+}
+.ruleGroup-combinators
+  .MuiAutocomplete-root.autocomplete
+  .MuiTextField-root
+  .MuiAutocomplete-inputRoot {
+  height: 2.4rem;
+}
+.rule-fields
+  .MuiAutocomplete-root.autocomplete
+  .MuiTextField-root
+  .MuiAutocomplete-inputRoot {
+  height: 2.4rem;
+}
+.rule-operators
+  .MuiAutocomplete-root.autocomplete
+  .MuiTextField-root
+  .MuiAutocomplete-inputRoot {
+  height: 2.4rem;
+} */

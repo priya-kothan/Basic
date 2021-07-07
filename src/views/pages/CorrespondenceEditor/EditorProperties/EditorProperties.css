@@ -1,0 +1,32 @@
+.correspondence-editor-properties {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 10px;
+  background: #ffffff;
+  overflow: auto;
+  border-radius: 8px;
+}
+
+.correspondence-editor-properties__header {
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+  margin-left: 0.156rem;
+}
+
+.correspondence-editor-properties__fields
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  /* margin-left: 0.094rem; */
+}
+.correspondence-editor-properties
+  .textbox
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin-left: 0.031rem;
+}
+.correspondence-editor-properties__fields_item {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

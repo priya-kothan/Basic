@@ -1,0 +1,38 @@
+{
+  "columnDefs": [
+    { "field": "name", "headerName": "Name" },
+    { "field": "viewType", "headerName": "View Type" },
+    { "field": "status", "headerName": "Status" },
+    { "field": "type", "headerName": "Type" }
+  ],
+  "rowData": [
+    {
+      "name": "Default view",
+      "viewType": "Lookup View",
+      "status": "Active",
+      "type": "Standard"
+    }
+  ],
+  "sideBar": {
+    "toolPanels": [
+      {
+        "id": "columns",
+        "labelDefault": "Columns",
+        "labelKey": "columns",
+        "iconKey": "columns",
+        "toolPanel": "agColumnsToolPanel",
+        "toolPanelParams": {
+          "suppressRowGroups": true,
+          "suppressValues": true,
+          "suppressPivots": true,
+          "suppressPivotMode": true,
+          "suppressSideButtons": true,
+          "suppressColumnSelectAll": true
+        }
+      }
+    ],
+    "position": "left",
+    "defaultToolPanel": "columns"
+  },
+  "allowDragFromColumnsToolPanel": true
+}

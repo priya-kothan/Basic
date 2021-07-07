@@ -1,0 +1,20 @@
+.listviewdesigner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  gap: 1rem;
+}
+
+.listviewdesigner-header__text {
+  color: #000000;
+}
+
+.listviewdesigner-header__icon .MuiIconButton-root {
+  padding: 0px;
+}
+
+.listviewdesigner-header__icon .MuiSvgIcon-root {
+  font-size: 0.875rem;
+}

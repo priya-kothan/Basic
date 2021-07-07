@@ -1,0 +1,76 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.well {
+  padding: 15px;
+}
+
+.tab {
+  background: transparent;
+  padding: 5px 15px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.tab-content {
+  padding: 15px 5px;
+  height: 80vh;
+  display: grid;
+}
+
+.tab.active {
+  background: #fff;
+  /* color: #000; */
+  outline: none;
+  border: 1px solid #ddd;
+}
+
+.nav-tabs {
+  margin-top: 10px;
+}
+
+.add-tab-button {
+  background: none;
+  border: none;
+}
+
+.edit-mode-button {
+  color: #fff;
+}
+
+.save-button {
+  background: green;
+  color: #fff;
+}
+
+.edit-tab-name {
+  color: #fff;
+}
+
+.nav {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.nav-tabs {
+  margin-top: 10px;
+}
+.nav-tabs {
+  border-bottom: 1px solid #dee2e6;
+}
+.tab-content-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.FormDesigner {
+  width: 100%;
+}

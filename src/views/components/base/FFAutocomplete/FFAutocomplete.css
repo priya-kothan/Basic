@@ -1,0 +1,158 @@
+.Autocomplete__Container .MuiAutocomplete-inputRoot .MuiAutocomplete-input {
+  height: 0.5rem;
+}
+.MuiFilledInput-root {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.MuiAutocomplete-inputRoot[class*='MuiFilledInput-root'][class*='MuiFilledInput-marginDense']
+  .MuiAutocomplete-input {
+  color: var(--controltext-colour);
+  font-size: 0.875rem !important;
+  font-family: Segoe UI Regular;
+}
+.iconselect {
+  margin-top: -0.6rem;
+  display: flex;
+  align-items: center;
+  padding: 0.1rem;
+}
+.MuiAutocomplete-root.autocomplete
+  .MuiTextField-root
+  .MuiAutocomplete-inputRoot {
+  height: 2.19rem;
+  /* min-width: 16rem; */
+  box-sizing: border-box;
+  /* border-radius: 8px; */
+  /* margin: 8px 0px; */
+  padding-top: 2px;
+}
+.MuiAutocomplete-root.autocomplete .MuiFilledInput-underline:before,
+.MuiAutocomplete-root.autocomplete .MuiFilledInput-underline:after {
+  border-bottom: none;
+}
+.MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-shrink.MuiInputLabel-marginDense {
+  transform: none;
+  /* color: #838383; */
+  color: var(--controllabel-colour);
+  /* margin-top: -16px; */
+}
+.MuiAutocomplete-root.autocomplete .MuiFormControl-root .MuiFilledInput-root {
+  background: #ffffff;
+  /* border: 1px solid #d6d6d6; */
+  border: 1px solid var(--controlborder-colour);
+  /* border-radius: 8px; */
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+/* .MuiAutocomplete-root.autocomplete .MuiFilledInput-underline:hover:before {
+  border-bottom: none;
+  border: 1px solid var(--controlborder-colour);
+ 
+    
+} */
+.MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  transform: none;
+  color: var(--controllabel-colour);
+  margin-top: -0.1rem;
+}
+
+/*  Formviwer Label Css */
+.autocompletectrl {
+  display: flex;
+}
+
+.Formviwer .MuiInputLabel-root {
+  display: none;
+}
+
+span.FormviwerFFAutocomplete-Label {
+  width: 250px; /* width: 40%; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+  font-family: 'Segoe UI';
+  color: var(--controllabel-colour);
+}
+
+.MuiAutocomplete-root.autocomplete.undefined.MuiAutocomplete-hasPopupIcon {
+  padding-left: 0.23%;
+  width: 100%;
+}
+
+.Formviwer
+  .MuiAutocomplete-root.autocomplete.Formviwer.undefined.MuiAutocomplete-hasPopupIcon {
+  width: 100%;
+  padding: 0px 0px 0px 7px;
+}
+
+.Formviwer .MuiInput-underline:before {
+  border-bottom: none;
+}
+
+.Formviwer .MuiInput-underline:after {
+  border: none;
+}
+.Formviwer .Mui-focused {
+  /* border: 1px solid red; */
+}
+.Formviwer .Mui-focused .MuiInputBase-inputMarginDense:hover {
+  border: none;
+}
+/* .Formviwer
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInput-fullWidth.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-adornedEnd.MuiInputBase-marginDense.MuiInput-marginDense:hover {
+  border: 1px solid var(--controlborder-colour);
+} */
+
+.Formviwer
+  .MuiAutocomplete-root.autocomplete
+  .MuiTextField-root
+  .MuiAutocomplete-inputRoot:hover {
+  padding: 7px;
+}
+/* .Formviwer .Mui-focused.MuiInputBase-formControl:hover 
+{
+ border: 1px solid red;
+  
+} */
+
+.Formviwer label + .MuiInput-formControl {
+  margin-top: 7px;
+  height: 35px;
+}
+
+/* .Formviwer .MuiInputBase-inputMarginDense {
+  padding: 7px;
+} */
+
+.Formviwer .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: none;
+}
+
+.Formviwer
+  .MuiAutocomplete-root.autocomplete.Formviwer.undefined.MuiAutocomplete-hasPopupIcon {
+  width: 60%;
+}
+.Formviwer
+  .MuiAutocomplete-inputRoot[class*='MuiInput-root'][class*='MuiInput-marginDense']
+  .MuiAutocomplete-input:first-child {
+  /* padding: 7px 0 0px 10px; */
+  padding: 0px 0 0px 5px;
+  border: none;
+}
+
+.form-element
+  .autocompletectrl
+  .Formviwer.undefined.MuiAutocomplete-hasPopupIcon
+  .MuiAutocomplete-inputRoot
+  .MuiAutocomplete-endAdornment {
+  display: none;
+}
+/* end */

@@ -1,0 +1,21 @@
+{
+  "columnDefs": [
+    { "field": "Title", "headerName": "Title" },
+
+    {
+      "headerName": "",
+      "field": "edit",
+      "cellRenderer": "FFMoreVertIcon",
+      "width": 40,
+      "suppressMenu": false,
+      "suppressMovable": true,
+      "sortable": false,
+      "filter": false,
+      "resizable": false,
+      "lockVisible": true
+    },
+    { "field": "SysEntity", "headerName": "Entity" },
+    { "field": "ListName", "headerName": "List Name" },
+    { "field": "IsPublished", "headerName": "Published", "hide": "true" }
+  ]
+}

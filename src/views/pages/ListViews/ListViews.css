@@ -1,0 +1,31 @@
+.listviews {
+  display: flex;
+  flex-direction: column;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  /* padding: 1rem 1rem 0rem 1rem; */
+}
+
+.listviews .listviews__title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #303030;
+}
+
+.listviews .ag-theme-balham {
+  width: 100%;
+}
+
+.listviews_CRUD_header {
+  padding: 1.5rem 0.97rem;
+}
+
+.listviews_CRUD_content .textbox {
+  margin: 0.175rem 0rem;
+}
+
+.listviews_CRUD_content
+  .textbox
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin-left: -0.075rem;
+}

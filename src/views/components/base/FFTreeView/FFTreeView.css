@@ -1,0 +1,18 @@
+.treeview {
+}
+
+.treeview .treeview__treeitem .treeview__treeitem_label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  font-family: 'Segoe UI';
+}
+.pinnedmodal-controls-sub-File {
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+}
+
+.treeviewText {
+  overflow-wrap: anywhere;
+}

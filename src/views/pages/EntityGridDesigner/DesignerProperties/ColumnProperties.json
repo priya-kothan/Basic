@@ -1,0 +1,128 @@
+[
+  {
+    "propertyName": "headerName",
+    "label": "Header name",
+    "value": "",
+    "description": "The name to render in the column header. If not specified and field is specified, the field name will be used as the header name",
+    "controlType": "Textbox"
+  },
+  {
+    "propertyName": "columnGroupShow",
+    "label": "Show column group",
+    "value": "",
+    "description": "Whether to show the column when the group is open / closed",
+    "controlType": "Checkbox"
+  },
+  {
+    "propertyName": "headerClass",
+    "label": "Header class name",
+    "value": "",
+    "description": "Class to use for the header cell. Can be a string, array of strings, or function",
+    "controlType": "Checkbox"
+  },
+  {
+    "propertyName": "toolPanelClass",
+    "label": "Tool panel class name",
+    "value": "",
+    "description": "Class to use for the tool panel cell. Can be a string, array of strings, or function",
+    "controlType": "Textbox"
+  },
+  {
+    "propertyName": "suppressColumnsToolPanel",
+    "label": "Hide columns tool panel",
+    "value": false,
+    "description": "Set to true if you do not want this column or group to appear in the Columns Tool Panel",
+    "controlType": "Textbox"
+  },
+  {
+    "propertyName": "suppressFiltersToolPanel",
+    "label": "Hide filters tool panel",
+    "value": false,
+    "description": "Set to true if you do not want this column (filter) or group (filter group) to appear in the Filters Tool Panel",
+    "controlType": "Checkbox"
+  },
+  {
+    "propertyName": "headerName",
+    "label": "Header name",
+    "value": "",
+    "description": "The name to render in the column header. If not specified and field is specified, the field name will be used as the header name",
+    "controlType": "Textbox"
+  },
+  {
+    "propertyName": "columnGroupShow",
+    "label": "Show column group",
+    "value": "",
+    "description": "Whether to show the column when the group is open / closed",
+    "controlType": "Checkbox"
+  },
+  {
+    "propertyName": "headerClass",
+    "label": "Header class name",
+    "value": "",
+    "description": "Class to use for the header cell. Can be a string, array of strings, or function",
+    "controlType": "Checkbox"
+  },
+  {
+    "propertyName": "toolPanelClass",
+    "label": "Tool panel class name",
+    "value": "",
+    "description": "Class to use for the tool panel cell. Can be a string, array of strings, or function",
+    "controlType": "Textbox"
+  },
+  {
+    "propertyName": "suppressColumnsToolPanel",
+    "label": "Hide columns tool panel",
+    "value": false,
+    "description": "Set to true if you do not want this column or group to appear in the Columns Tool Panel",
+    "controlType": "Textbox"
+  },
+  {
+    "propertyName": "suppressFiltersToolPanel",
+    "label": "Hide filters tool panel",
+    "value": false,
+    "description": "Set to true if you do not want this column (filter) or group (filter group) to appear in the Filters Tool Panel",
+    "controlType": "Checkbox"
+  },
+  {
+    "propertyName": "headerName",
+    "label": "Header name",
+    "value": "",
+    "description": "The name to render in the column header. If not specified and field is specified, the field name will be used as the header name",
+    "controlType": "Textbox"
+  },
+  {
+    "propertyName": "columnGroupShow",
+    "label": "Show column group",
+    "value": "",
+    "description": "Whether to show the column when the group is open / closed",
+    "controlType": "Checkbox"
+  },
+  {
+    "propertyName": "headerClass",
+    "label": "Header class name",
+    "value": "",
+    "description": "Class to use for the header cell. Can be a string, array of strings, or function",
+    "controlType": "Checkbox"
+  },
+  {
+    "propertyName": "toolPanelClass",
+    "label": "Tool panel class name",
+    "value": "",
+    "description": "Class to use for the tool panel cell. Can be a string, array of strings, or function",
+    "controlType": "Textbox"
+  },
+  {
+    "propertyName": "suppressColumnsToolPanel",
+    "label": "Hide columns tool panel",
+    "value": false,
+    "description": "Set to true if you do not want this column or group to appear in the Columns Tool Panel",
+    "controlType": "Textbox"
+  },
+  {
+    "propertyName": "suppressFiltersToolPanel",
+    "label": "Hide filters tool panel",
+    "value": false,
+    "description": "Set to true if you do not want this column (filter) or group (filter group) to appear in the Filters Tool Panel",
+    "controlType": "Checkbox"
+  }
+]

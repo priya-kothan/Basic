@@ -1,0 +1,7 @@
+.MuiIconButton-label > .MuiSvgIcon-root {
+  color: black;
+}
+
+.MuiFormControlLabel-root > .MuiTypography-root {
+  color: black;
+}

@@ -1,0 +1,7 @@
+.switch {
+  display: flex;
+  align-items: center;
+}
+.formviewer .switch .switch__label {
+  width: 250px; /* width: 28.5%; */
+}

@@ -1,0 +1,198 @@
+/* .rule-value .MuiOutlinedInput-input {
+  padding: 9px 10px;
+}
+
+.rule .MuiFormControl-marginNormal {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.rule .MuiInputLabel-outlined {
+  transform: translate(14px, 12px) scale(1) !important;
+} */
+/* 
+.rule-value .MuiInputLabel-root {
+  display: none;
+}
+
+.rule-value
+  .MuiAutocomplete-root.autocomplete
+  .MuiFormControl-root
+  .MuiFilledInput-root {
+  background: #ffffff;
+  border: 1px solid #5a616b;
+  border-radius: 0px;
+  box-sizing: border-box;
+  margin-top: 0px;
+}
+.rule-value
+  .MuiAutocomplete-root.autocomplete
+  .MuiTextField-root
+  .MuiAutocomplete-inputRoot {
+  height: 2.4rem;
+}
+
+.rule-value .MuiOutlinedInput-root {
+  border-radius: 0px;
+}
+
+.rule-value .formControl .MuiFilledInput-root {
+  margin-top: 0px;
+  border-radius: 0px;
+}
+.rule-value .formControl .MuiFilledInput-input {
+  background: white;
+  border: 1px solid #5a616b;
+  border-radius: 0px;
+  box-sizing: border-box;
+  height: 2.5rem;
+  padding: 14px 12px 20px;
+}
+
+.rule-value .MuiFormControl-root {
+  width: 100%;
+}
+
+.ruleGroup-addRule .button.btn--primary.MuiButton-root,
+.button.btn--secondary.MuiButton-root {
+  border-radius: 0px;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 5px 16px;
+}
+
+.ruleGroup-addGroup .button.btn--primary.MuiButton-root,
+.button.btn--secondary.MuiButton-root {
+  border-radius: 0px;
+  text-transform: none;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 5px 16px;
+} */
+
+.rule-value_Select {
+  width: 100%;
+}
+
+.entitygrid-designer__properties .addmodal {
+  width: 65%;
+}
+.rule-value {
+  width: 25%;
+  margin-left: 0.5rem;
+}
+.button.btn--secondary.MuiButton-root {
+  padding: 0px;
+  min-width: 2rem;
+}
+
+.button.btn--secondary.MuiButton-root {
+  padding: 0px;
+  min-width: 4rem;
+}
+.rule-remove .button.btn--primary.MuiButton-root {
+  padding: 0px;
+  min-width: 4rem;
+  width: 30px;
+  min-width: 2rem;
+}
+
+.ruleGroup-remove .button.btn--primary.MuiButton-root {
+  padding: 0px;
+  min-width: 4rem;
+  width: 30px;
+  min-width: 2rem;
+}
+/* .rule-value .datetimepickers .MuiInputLabel-shrink {
+ 
+  margin: 0px 0 0 0;
+  transform: translate(13px, -6px) scale(0.75);
+} */
+.rule-value .dateandtimepickers .MuiInputLabel-shrink {
+  margin: 0px 0 0 0;
+  /* transform: translate(13px, -6px) scale(0.75); */
+}
+
+.rule-value .dateandtimepickers {
+  padding-top: 2px;
+}
+.rule-value .datetimepickers {
+  padding-top: 20px;
+}
+.rule-value .datetimepickers .FFDateandTimePicker_root {
+  border: 1px solid #d6d6d6;
+  width: 77%;
+  height: 3rem;
+}
+.FilterDesigner_Switch {
+  display: inline-block;
+  padding-top: 1.25rem;
+}
+.rule-value .dateandtimepickers .FFDateandTimePicker_root {
+  border: none;
+  /* width: 100%; */
+  width: 14.437rem;
+  height: 3rem;
+}
+.rule-value
+  .dateandtimepickers
+  .FFDateandTimePicker_root
+  .MuiInputLabel-filled {
+  font-size: 0.8rem;
+  color: var(--controllabel-colour);
+}
+
+.rule-value .dateandtimepickers .MuiFilledInput-input {
+  padding: 15px 12px 10px;
+  color: var(--controltext-colour);
+}
+.rule-value .datetimepickers .MuiFilledInput-input {
+  padding: 15px 12px 10px;
+  color: var(--controltext-colour);
+}
+
+.rule-value .datetimepickers .MuiFilledInput-adornedEnd {
+  width: 100%;
+  color: var(--controltext-colour);
+  background: white;
+  border: 1px solid var(--controlborder-colour);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  height: 33px;
+}
+.rule-value .dateandtimepickers .MuiFilledInput-adornedEnd {
+  width: 100%;
+  color: var(--controltext-colour);
+  border: 1px solid var(--controlborder-colour);
+  background: white;
+  height: 2.187rem;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.FilterDesigner_Switch .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track,
+.FilterDesigner_Switch .MuiSwitch-track {
+  opacity: 1;
+}
+
+.FilterDesigner_Switch
+  .MuiSwitch-colorSecondary.Mui-checked
+  + .MuiSwitch-track {
+  background-color: #1a936f;
+}
+.FilterDesigner_Switch .MuiSwitch-colorSecondary.Mui-checked {
+  color: #ffffff;
+}
+
+.FilterDesigner_Switch .MuiSwitch-thumb {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-top: 0.31rem;
+  margin-left: 0.31rem;
+}
+
+.rule-value .datetimepickers .MuiInputLabel-filled.MuiInputLabel-shrink {
+  transform: none;
+  margin: -21px 0 0 0;
+  color: var(--controllabel-colour);
+}

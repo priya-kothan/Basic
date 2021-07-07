@@ -1,0 +1,167 @@
+.drawer .MuiDrawer-paper {
+  top: unset;
+}
+
+.drawer .MuiPaper-root {
+  background-color: #e5e5e5;
+  white-space: nowrap;
+}
+
+/* .muidrawer_open:after,
+.muidrawer_close:after {
+   content: '.';
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+} */
+
+.muidrawer_open .MuiPaper-root {
+  width: 15rem;
+  transition: all 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+}
+
+.muidrawer_close .MuiPaper-root {
+  width: 3.5625rem;
+  overflow-x: hidden;
+  transition: all 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+}
+
+.drawer__toggle .MuiIconButton-root {
+  padding: 0.5rem 1rem;
+}
+
+.drawer__toggle .MuiIconButton-root:hover {
+  background-color: transparent;
+}
+
+.drawer .MuiSvgIcon-root {
+  fill: #5e77c2;
+}
+
+.drawer .MuiListItemIcon-root {
+  min-width: 2.5rem;
+}
+
+.drawer .MuiListItem-gutters {
+  padding: 0.3125rem 1rem;
+}
+
+.drawer .drawer__submenu .MuiListItem-button:hover {
+  border-right: 2px solid var(--primary-color);
+}
+
+.drawer__submenu_item.active {
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-right: 2px solid var(--primary-color);
+}
+
+.drawer .MuiDrawer-paperAnchorDockedLeft {
+  border: none;
+}
+
+.actionbar,
+.actionbar + div {
+  transition: all 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  height: calc(100% - 104px);
+  overflow: auto;
+}
+
+.drawer.drawer_open + .actionbar,
+.drawer.drawer_open + .actionbar + div {
+  position: relative;
+  left: 15rem;
+  width: calc(100% - 15rem);
+}
+
+.drawer.drawer_close + .actionbar,
+.drawer.drawer_close + .actionbar + div {
+  position: relative;
+  left: 3.5625rem;
+  width: calc(100% - 3.5625rem);
+}
+
+.drawer__mainmenu_item.active,
+.drawer__submenu {
+  background-color: #f9f9f9;
+}
+
+.drawer .drawer__submenu_item.MuiListItem-gutters {
+  padding-left: 3.5rem;
+}
+
+/* --------------------------------- */
+.drawer .menu {
+  display: block;
+  z-index: 999999;
+}
+.drawer .menu li {
+  display: inline-block;
+  position: relative;
+}
+.drawer__mainmenu a.drawer__mainmenu_item:hover > .submenu,
+.drawer .menu li.dropdown:hover > .submenu {
+  display: block;
+}
+.drawer .menu li a {
+  display: block;
+  padding: 12px 8px;
+}
+
+.drawer .menu li a:hover {
+  /* background: grey; */
+  border-left: 2px solid var(--primary-color);
+  background-color: rgba(0, 0, 0, 0.04);
+  font-weight: 600;
+}
+
+.drawer .menu .submenu {
+  display: none;
+}
+
+.drawer .submenu__header {
+  padding: 10px 8px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  font-weight: 600;
+  /* font-family: 'SF PRO DISPLAY'; */
+  font-family: Segoe UI;
+}
+
+.drawer .submenu {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px 2px #888888;
+  /* border: 1px solid red; */
+  left: 3.5625rem;
+  /* top: 6.5rem; */
+  list-style-type: none;
+  display: block;
+  width: 200px;
+}
+
+.drawer .submenu li {
+  display: block;
+}
+.drawer .submenu li a {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  color: #000000;
+  /* display: block;
+   background: #999;
+   padding: 8px 6px;
+   margin-bottom: 1px; */
+  text-decoration: none;
+}
+.drawer .menu .submenu > li.dropdown:hover > .submenu {
+  display: block;
+}
+
+.drawer .menu .submenu .submenu {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}

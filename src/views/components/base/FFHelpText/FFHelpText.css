@@ -1,0 +1,36 @@
+.tooltip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.MuiTooltip-tooltip {
+  color: #fff;
+  padding: 15px;
+  padding: 0.78vw;
+  font-size: 0.875rem;
+  max-width: 535px;
+  max-width: 27.86vw;
+  word-wrap: break-word;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  line-height: 16px;
+  line-height: 0.83vw;
+  border-radius: 4px;
+  border-radius: 0.21vw;
+  white-space: normal;
+  box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, 0.132),
+    0 0.6px 1.8px 0 rgba(0, 0, 0, 0.108);
+  box-shadow: 0 0.17vw 0.38vw 0 rgba(0, 0, 0, 0.132),
+    0 0.03vw 0.09vw 0 rgba(0, 0, 0, 0.108);
+  background-color: #3f51b5;
+}
+
+.MuiTooltip-arrow {
+  color: #3f51b5;
+}
+
+.tooltip.MuiSvgIcon-root {
+  color: #999999;
+}

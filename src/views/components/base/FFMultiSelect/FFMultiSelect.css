@@ -1,0 +1,107 @@
+/* .FFMultiSelect_root .formControl {
+ 
+  max-width: 5.21vw;
+  min-width: 5.21vw;
+  background-color: white;
+  margin: 0vw;
+  margin: 0vw;
+}
+.FFMultiSelect_root .MuiFormControl-root {
+  min-width: 200px;
+  min-width: 10.42vw;
+  border-radius: 8px;
+  border-radius: 0.42vw;
+  border-radius: 0.42vw;
+}
+.FFMultiSelect_root .MuiInput-formControl {
+  border: 0px solid;
+  border: 0vw solid;
+}
+
+.FFMultiSelect_root .MuiInput-input {
+  width: 200px;
+  width: 10.42vw;
+  padding: 3px 3px;
+  padding: 0.16vw 0.16vw;
+  font-family: SF Pro Display;
+  background-color: white;
+  max-width: 165px;
+  max-width: 8.59vw;
+}
+
+.formControl.search_filter_fields .MuiInputBase-root {
+  height: 40px;
+  height: 2.08vw;
+  width: 200px;
+  width: 10.42vw;
+  border-radius: 8px;
+  border-radius: 0.42vw;
+}
+
+.formControl.search_filter_fields .MuiFormLabel-root {
+  
+  z-index: 0;
+}
+
+.selecteditem {
+  margin-top: -0.8rem;
+  display: 'flex';
+  flex-wrap: 'wrap';
+} */
+
+/*  variant type filled */
+.formControl .MuiInputLabel-filled {
+  transform: inherit;
+  color: #838383;
+}
+
+.formControl .MuiInputLabel-filled.MuiInputLabel-shrink {
+  transform: none;
+  color: #838383;
+}
+.formControl .MuiFilledInput-underline:before {
+  border-bottom: none;
+}
+.formControl .MuiFilledInput-underline:after {
+  border-bottom: none;
+}
+.formControl .MuiFilledInput-root {
+  margin-top: 20px;
+  /* border-radius: 8px; */
+}
+.formControl .MuiFilledInput-input {
+  background: white;
+  border: 1px solid #d6d6d6;
+  /* border-radius: 8px; */
+  box-sizing: border-box;
+  height: 48px;
+  padding: 14px 12px 20px;
+}
+.formControl .MuiFilledInput-root:hover {
+  border-bottom: none;
+}
+.formControl .MuiFilledInput-underline:hover:before {
+  border-bottom: none;
+}
+.MuiFilledInput-inputMarginDense {
+  padding-top: 15px;
+}
+/*  end*/
+.MuiSelect-outlined.MuiSelect-outlined {
+  /* border-radius: 8px; */
+}
+.MuiInputLabel-outlined {
+  z-index: 1;
+  transform: translate(14px, 15px) scale(1);
+  pointer-events: none;
+}
+.formControl .MuiOutlinedInput-root {
+  position: relative;
+  /* border-radius: 8px; */
+  height: 3rem;
+}
+.formControl .MuiOutlinedInput-root {
+  position: relative;
+  /* border-radius: 8px; */
+  height: 3rem;
+}

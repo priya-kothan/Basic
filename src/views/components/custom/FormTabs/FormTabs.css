@@ -1,0 +1,54 @@
+.formtab {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+
+.formtab__tablist {
+  display: flex;
+  gap: 1rem;
+  padding-bottom: 20px;
+}
+
+.formtab__tab {
+  cursor: pointer;
+  position: relative;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+
+.formtab__tab::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 3px;
+  visibility: hidden;
+  transform: scale(0);
+  transform-origin: left;
+  transition: 0.2s ease-out;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+
+.formtab__tab.active {
+  font-weight: 600;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+
+.formtab__tab.active::after {
+  visibility: visible;
+  transform: scale(1);
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+
+.formtab__tabpanels {
+  /* padding-top: 1rem; */
+  overflow: auto;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}

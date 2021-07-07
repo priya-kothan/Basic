@@ -1,0 +1,364 @@
+.EntityFieldPopup .addAddFieldmodal {
+  display: flex;
+  flex-direction: column;
+  width: 420px;
+  background: #ffffff;
+  box-shadow: 0px 0.42vw 1.48vh rgba(0, 0, 0, 0.1),
+    0 25px 50px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  right: 0%;
+  top: 50px;
+  bottom: 0%;
+  /* overflow-y: auto; */
+  z-index: 1200;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  color: black;
+}
+
+.EntityFieldPopup .addAddFieldmodal__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 0.965rem 1.5rem 0.965rem;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 24px;
+}
+.EntityFieldPopup .addAddFieldmodal__close .MuiIconButton-root {
+  padding: 0px;
+}
+
+.EntityFieldPopup .addAddFieldmodal__title {
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 20px;
+  color: #303030;
+}
+
+.EntityFieldPopup .addAddFieldmodal__content {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  padding: 0rem 1rem 0.25rem;
+  gap: 1rem;
+  overflow-y: auto;
+}
+
+.EntityFieldPopup .addAddFieldmodal__footer {
+  display: flex;
+  margin-top: 1rem;
+  padding: 1rem 1rem;
+  gap: 1rem;
+  border-top: 1px solid #ececec;
+}
+
+.EntityFieldPopup .addAddFieldmodal .MuiButton-root {
+  border-radius: 3px;
+  text-transform: none;
+}
+
+.EntityFieldPopup .addAddFieldmodal .EntityAdd_Btn_SaveField {
+  /* width: 6.688rem; */
+  width: fit-content;
+}
+
+.EntityFieldPopup .addAddFieldmodal__success,
+.addAddFieldmodal__success.MuiButton-root:hover {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.EntityFieldPopup .addAddFieldmodal__footer .FFButton .Cancel {
+  background: transparent;
+  border: 1px solid #4c54bd;
+  color: #4c54bd;
+}
+
+.EntityFieldPopup .addAddFieldmodal__footer .Cancelbutton {
+  background: transparent;
+}
+
+.EntityFieldPopup
+  .addAddFieldmodal
+  .FFSwitchbutton
+  .MuiSwitch-switchBase.Mui-checked
+  + .MuiSwitch-track,
+.FFSwitchbutton .MuiSwitch-track {
+  opacity: 1;
+}
+.EntityFieldPopup
+  .addAddFieldmodal
+  .FFSwitchbutton
+  .MuiSwitch-colorSecondary.Mui-checked
+  + .MuiSwitch-track {
+  background-color: #1a936f;
+}
+.EntityFieldPopup .addAddFieldmodal .FFSwitchbutton {
+  display: flex;
+  align-items: baseline;
+}
+.EntityFieldPopup
+  .addAddFieldmodal
+  .FFSwitchbutton
+  .MuiSwitch-colorSecondary.Mui-checked {
+  color: #ffffff;
+}
+.EntityFieldPopup .addAddFieldmodal .FFSwitchbutton .switchbutton {
+  margin: -10px -10px -10px 0px;
+}
+.EntityFieldPopup .addAddFieldmodal__content label {
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+}
+
+.IsGlobalSearch,
+.IsDisplayName,
+.isHasIsVisibleInUI,
+.isKey,
+.IsRollupField,
+.ImmediateCalculation {
+  color: var(--controllabel-colour);
+  font-family: 'Segoe UI';
+  margin-left: -0.056rem;
+}
+
+span.calculated-field__data_title {
+  color: var(--controllabel-colour);
+  padding: 0px 0px 6px;
+}
+.Filter
+  .MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  max-width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.EntityFieldPopup .addmodal {
+  width: 80% !important;
+}
+@media (max-width: 80em) {
+  .EntityFieldPopup .addAddFieldmodal {
+    width: 420px;
+  }
+  .EntityFieldPopup .addmodal {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 60em) {
+  .EntityFieldPopup .addAddFieldmodal {
+    width: 100%;
+    top: 0;
+  }
+  .EntityFieldPopup .addmodal {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .EntityFieldPopup .addAddFieldmodal {
+    width: 100%;
+    top: 0;
+  }
+  .EntityFieldPopup .addmodal {
+    width: 100% !important;
+  }
+}
+.EntityFieldPopup .addAddFieldmodal .MuiFilledInput-root {
+  /* margin-left: -0.031rem; */
+}
+.Div-Group {
+  border: 1px solid #d7e6ef;
+  padding: 0px 5px 0px 5px;
+  margin: 0px -6px 0 -6px;
+  background: #f4fbff;
+  /* color: rgba(0, 0, 0, 0.54); */
+}
+.Div-Group div {
+  padding: 0.168rem 0rem;
+}
+.Div-Group .Group-header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: black;
+  font-family: 'Segoe UI';
+  margin-left: -0.056rem;
+}
+
+.addAddFieldmodal .calculated-field {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: -0.031rem; */
+  /* margin-bottom: 1.25rem; */
+}
+
+.EntityFieldPopup .calculated-field__data_title {
+  color: var(--controllabel-colour);
+  font-family: 'Segoe UI';
+  /* font-weight: 400; */
+  font-size: 0.875rem;
+  margin-left: -0.062rem;
+}
+
+.addAddFieldmodal .calculated-field__data {
+  font-size: 0.875rem;
+  font-family: 'Segoe UI Regular';
+  display: flex;
+  gap: 10px;
+  border: 1px solid var(--controlborder-colour);
+  /* border-radius: 8px; */
+  padding: 5px;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 0.031rem -0.05em 0.031rem -0.1rem; */
+  margin-bottom: -0.024rem;
+}
+
+.addAddFieldmodal .calculated-field .MuiButtonBase-root {
+  align-self: flex-start;
+}
+
+.addAddFieldmodal .calculated-field .MuiButtonBase-root:hover {
+  background: transparent;
+}
+.EntityFieldPopup .addAddFieldmodal .textbox {
+  margin: 0.205rem 0rem 0.205rem 0rem;
+}
+.EntityFieldPopup .addAddFieldmodal .MuiAutocomplete-root {
+  margin: 0.188rem 0rem 0.188rem 0rem;
+}
+.EntityFieldPopup
+  .addAddFieldmodal
+  .textbox
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin-left: -0.056rem;
+  margin-top: -0.1rem;
+  margin-bottom: 0rem;
+}
+.EntityFieldPopup .MuiInputLabel-formControl {
+  top: 0px;
+}
+.EntityFieldPopup .addAddFieldmodal .MuiSwitch-root .switchbutton {
+  margin: -0.438rem;
+  margin-bottom: 0.63rem;
+}
+
+.divHasIsVisibleInUI {
+  padding: 0rem 0rem 0.46rem;
+}
+.divKey {
+  padding: 0rem 0rem 0.46rem;
+}
+.divEnableCaching {
+  padding: 0rem 0rem 0.46rem;
+}
+
+.Div-Group .divEnableCaching .FFSwitchbutton {
+  padding: 0rem 0rem 1.25rem;
+}
+
+.Div-Group .MuiFormControl-root {
+  margin: 0rem 0.188rem 0rem 0rem;
+}
+
+.addAddFieldmodal
+  .MuiInputBase-root.MuiFilledInput-root.MuiFilledInput-underline.MuiAutocomplete-inputRoot.MuiInputBase-fullWidth.MuiInputBase-formControl.MuiInputBase-adornedEnd.MuiFilledInput-adornedEnd.MuiInputBase-marginDense.MuiFilledInput-marginDense {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.addAddFieldmodal
+  .MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  transform: none;
+  color: var(--controllabel-colour);
+  margin-top: -0.1rem;
+  margin-left: -0.056rem;
+}
+.addAddFieldmodal
+  .Div-Group
+  .MuiAutocomplete-root
+  .MuiFormControl-fullWidth
+  .MuiInputLabel-filled {
+  transform: none;
+  color: var(--controllabel-colour);
+  margin-top: 0.143rem;
+  margin-left: -0.06rem;
+}
+
+.Div-Group
+  .addAddFieldmodal
+  .MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin-top: -0.1rem;
+}
+.EntityFieldPopup .addAddFieldmodal .MuiFormControl-fullWidth {
+  width: 100%;
+}
+.addAddFieldmodal
+  .MuiAutocomplete-root.autocomplete.undefined.MuiAutocomplete-hasPopupIcon {
+  padding-left: 0px;
+}
+.addAddFieldmodal__content .MuiTypography-root {
+  overflow-wrap: break-word;
+  color: var(--controllabel-colour);
+  font-family: 'Segoe UI';
+  font-size: 0.875rem;
+}
+.addAddFieldmodal__content .MuiAccordionDetails-root {
+  display: initial;
+}
+
+.addAddFieldmodal__content .MuiIconButton-edgeEnd {
+  margin-right: 0px;
+}
+.addAddFieldmodal__content .MuiAccordionSummary-root {
+  flex-direction: row-reverse;
+  padding: 0rem;
+}
+.addAddFieldmodal__content .MuiAccordionSummary-root .MuiIconButton-root {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.addAddFieldmodal__content .MuiPaper-elevation1 {
+  box-shadow: none;
+}
+.EntityFieldPopup .addAddFieldmodal__content .addAddFieldmodal__content {
+  padding: 0rem;
+}
+.EntityFieldPopup .addAddFieldmodal__content .collapseControls {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.addAddFieldmodal__content .MuiAccordionSummary-root .MuiIconButton-root {
+  margin-left: -0.56rem;
+}
+.collapseControls .Div-Group {
+  border: none;
+  background: none;
+  padding: 0rem 0.375rem 0rem 0.375rem;
+}
+.EntityFieldPopup
+  .addAddFieldmodal__content
+  .MuiAccordionSummary-root.Mui-expanded {
+  min-height: 48px;
+}
+.EntityFieldPopup
+  .addAddFieldmodal__content
+  .MuiAccordionSummary-content.Mui-expanded {
+  margin: 12px 0;
+}
+/*Accordion*/
+.EntityFieldPopup .addAddFieldmodal__content .MuiAccordion-root.Mui-expanded {
+  margin: 0rem;
+}
+.EntityFieldPopup .addAddFieldmodal__content .MuiAccordion-root:before {
+  height: 0px;
+}

@@ -1,0 +1,27 @@
+{
+  "mode": "classic",
+  "height": "100%",
+  "rtl": false,
+  "katex": "window.katex",
+  "videoFileInput": false,
+  "tabDisable": false,
+  "buttonList": [
+    ["undo", "redo"],
+    ["font", "fontSize", "formatBlock"],
+    ["paragraphStyle", "blockquote"],
+    ["bold", "underline", "italic", "strike", "subscript", "superscript"],
+    ["fontColor", "hiliteColor", "textStyle"],
+    ["removeFormat"],
+    "/",
+    ["outdent", "indent"],
+    ["math", "imageGallery"],
+    ["align", "horizontalRule", "list", "lineHeight"],
+    ["table", "link", "image", "video", "audio"],
+    ["fullScreen", "showBlocks", "codeView"],
+    ["preview", "print"],
+    ["save", "template"]
+  ],
+  "charCounter": true,
+  "charCounterLabel": "characters:",
+  "lang(In nodejs)": "en"
+}

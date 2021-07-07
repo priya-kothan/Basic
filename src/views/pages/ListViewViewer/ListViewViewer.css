@@ -1,0 +1,126 @@
+.listview-viewer {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  background: white;
+  overflow-y: hidden;
+  height: 100%;
+  /* padding: 1rem 1rem 0rem 1rem; */
+}
+
+.listview-viewer .listview-viewer__title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #303030;
+}
+
+/* .listview-viewer .ag-theme-balham {
+  height: 90%;
+} */
+.ag-theme-balham.listviewer-grid {
+  font-size: 0.875rem;
+  height: 90%;
+  width: auto;
+}
+
+/* 
+.ListViewViewerPopup {
+  display: none;
+  position: fixed;
+  z-index: 1200;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+} */
+
+.listviewer-lists {
+  width: fit-content;
+  margin-left: 0rem;
+}
+
+.listviewer-lists
+  .MuiFormControl-root.dropdown
+  .MuiInputLabel-filled.MuiInputLabel-shrink {
+  transform: none;
+  color: #838383;
+  display: none;
+}
+
+.listviewer-lists .MuiFormControl-root.dropdown .MuiFilledInput-root {
+  margin-top: 10px;
+  /* border-radius: 8px; */
+  margin-bottom: 10px;
+}
+
+.listviewer-lists .MuiSelect-iconFilled {
+  right: -0.65rem;
+  /* top: 0.1rem;
+  font-size: 14px; */
+}
+
+.listviewer-lists .MuiFormControl-root.dropdown .MuiFilledInput-input {
+  border: 0px solid #d6d6d6;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Segoe UI';
+}
+
+.listview-viewer .ag-theme-balham.listviewer-grid {
+  height: calc(100% - 55px);
+}
+.listview-viewer p#date-picker-dialog-LastUpdatedDate-helper-text,
+p#date-picker-dialog-NextObsDate-helper-text,
+p#date-picker-dialog-CreatedOn-helper-text {
+  content-visibility: hidden;
+  margin-top: 0px;
+}
+
+/* @media screen and (max-width: 450px) {
+}
+
+@media screen and (max-width: 1024px) {
+  .listview-viewer .ag-theme-balham.listviewer-grid {
+    height: 87.9%;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1360px) {
+  .listview-viewer .ag-theme-balham.listviewer-grid {
+    height: 87.9%;
+  }
+}
+@media screen and (min-width: 1361px) and (max-width: 1600px) {
+  .listview-viewer .ag-theme-balham.listviewer-grid {
+    height: 88%;
+  }
+}
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+} */
+
+/* .listviewer-grid {
+  margin-left: 25px;
+  width: 97.5%;
+}
+ .listview-viewer .ag-row {
+  border-bottom: 1px solid var(--RowBorder-Colour) !important;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.listview-viewer .ag-center-cols-container {
+  height: 50px !important;
+}
+.listview-viewer .ag-row {
+  height: 40px !important;
+}
+.listview-viewer .ag-cell-value {
+  font-family: 'Segoe UI' !important;
+  font-size: 12px !important;
+}
+.listview-viewer .ag-header-cell-text {
+  color: var(--ListHeaderText-Colour) !important;
+  font-family: 'Segoe UI' !important;
+  font-size: 12px !important;
+} */

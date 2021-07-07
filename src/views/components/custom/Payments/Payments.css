@@ -1,0 +1,146 @@
+.div-container .textbox .MuiFilledInput-input {
+  height: 4.25rem;
+}
+.div-container .textbox {
+  /* width: 20rem; */
+}
+
+.div-container .textbox .MuiFilledInput-root {
+  margin-top: 0px;
+}
+
+.div-container .textbox .MuiInputLabel-filled {
+  padding: 0.625rem;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1rem;
+  color: var(--controllabel-colour);
+}
+
+.div-container .MuiFilledInput-inputMarginDense {
+  padding-top: 2.5rem;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI Regular;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+button#\ Make\ Payment {
+  background: #ffffff;
+  border: 1px solid #4c54bd;
+  box-sizing: border-box;
+  border-radius: 0.5rem;
+  color: #4c54bd;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #4c54bd;
+}
+
+button#Save\ Payment {
+  /* width: 6.563rem; */
+  width: fit-content;
+  bottom: 13px;
+}
+
+.RecordPayment_Btn {
+  width: 6.75rem;
+}
+
+.div-field {
+  display: inline-flex;
+  margin: 10px;
+  max-width: 100%;
+  min-width: 9%;
+}
+.btn_MakePayment {
+  padding-left: 1rem;
+}
+
+.Main-panel {
+  border: 1px solid;
+  padding: 10px;
+}
+.addmodal__content .datetimepickers .FFdatepicker_root {
+  width: 100%;
+  border-color: var(--controlborder-colour);
+}
+
+.addmodal__content .datetimepickers .MuiInputAdornment-positionEnd {
+  margin-left: 165px;
+}
+.payment-Content {
+  flex-grow: 0;
+}
+.before-addmodal__success,
+.before-addmodal__success.MuiButton-root:hover {
+  /* background-color: #303030; */
+  color: #ffffff;
+}
+
+.addmodal__content .datetimepickers {
+  padding-left: 0px;
+}
+
+.backdrop.MuiBackdrop-root {
+  z-index: 1200;
+}
+.div-field .MuiInputBase-input.Mui-disabled {
+  opacity: 1;
+  color: rgb(5, 5, 5);
+  border-bottom: 1px solid var(--controlborder-colour);
+}
+
+.addmodal__content .MuiFilledInput-root {
+  background-color: white;
+  color: var(--controltext-colour);
+}
+.addmodal__content
+  .MuiFormLabel-root.MuiInputLabel-root.MuiInputLabel-formControl.MuiInputLabel-animated.MuiInputLabel-shrink.MuiInputLabel-filled.MuiFormLabel-filled {
+  color: var(--controllabel-colour);
+}
+.datetimepickers .MuiInputLabel-shrink {
+  transform: inherit;
+  margin: -24px 0 0 0;
+}
+
+#EntityPopup .addmodal__footer .button#Save\ Payment {
+  bottom: 0;
+}
+
+@media (max-width: 80em) {
+  .div-container {
+    width: 26.25rem;
+  }
+  .div-field {
+    width: 100%;
+  }
+}
+
+@media (max-width: 60em) {
+  .div-container {
+    width: 100%;
+    top: 0;
+  }
+  .div-field {
+    width: 100%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .div-container {
+    width: 100%;
+    top: 0;
+  }
+  .div-field {
+    width: 100%;
+  }
+}

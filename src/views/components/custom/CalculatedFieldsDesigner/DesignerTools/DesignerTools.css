@@ -1,0 +1,70 @@
+.calculatedfields-designertools {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto 1fr;
+  grid-column: 1 / 1;
+  grid-row: 1 / -1;
+  gap: 1rem;
+  padding: 10px;
+  overflow: auto;
+  background: #f5f5f5;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+}
+
+.calculatedfields-designertools__header {
+  color: #000000;
+  font-weight: 600;
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+  border-bottom: 1px solid #d6d6d6;
+  line-height: 2rem;
+}
+
+.calculatedfields-designertools__items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: auto;
+  padding-top: 5px;
+}
+
+.calculatedfields-designertools__calculatablefields_items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+
+.calculatedfields-designertools__calculatablefields_item {
+  display: flex;
+  align-items: center;
+  cursor: grab;
+  font-size: 0.875rem;
+  font-family: Segoe UI Regular;
+}
+
+.calculatedfields-designertools__entityfields {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 1rem;
+  overflow: hidden;
+}
+
+.calculatedfields-designertools__entityfields_items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+  font-size: 0.875rem;
+  font-family: Segoe UI Regular;
+}
+
+.calculatedfields-designertools__entityfields_item {
+  display: flex;
+  align-items: center;
+  cursor: grab;
+}

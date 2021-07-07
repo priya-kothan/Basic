@@ -1,0 +1,32 @@
+.actionbar {
+  display: flex;
+  align-items: center;
+  height: 2.6rem;
+  background-color: #eaeaea;
+  overflow: hidden;
+}
+
+.actionbar__back {
+  background-color: transparent;
+}
+
+.actionbar__searchbox {
+  margin-left: auto;
+}
+
+.actionbar .dropdown {
+  width: 150px;
+  background-color: #ffffff;
+}
+
+.actionbar .dropdown .MuiInputLabel-root {
+  color: var(--primary-color);
+}
+
+.actionbar .dropdown .MuiSelect-root {
+  padding: 0.5rem;
+}
+
+.actionbar .MuiOutlinedInput-root {
+  padding-right: 1rem;
+}

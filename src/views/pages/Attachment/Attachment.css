@@ -1,0 +1,78 @@
+.Grid-container {
+  background-color: #f5f5f5;
+  height: calc(100vh - 10.99vh);
+  width: 100%;
+}
+.Grid-panel {
+  height: 100%;
+}
+.Left-panel {
+  height: 100%;
+  background-color: #f5f5f5;
+  min-width: 18.75rem;
+}
+.Main-panel {
+  height: 100%;
+}
+.Right-panel {
+  height: 100%;
+}
+.Grid-rootleftpanel {
+  padding-top: 20px !important;
+  padding-left: 25px !important;
+  height: 100%;
+  max-width: 18%;
+  flex-basis: 18%;
+}
+.Grid-rootmainpanel {
+  padding-top: 20px !important;
+  flex-grow: 0;
+  max-width: 65%;
+  flex-basis: 65%;
+  height: 100%;
+}
+.Grid-rootrightpanel {
+  padding-top: 20px !important;
+  height: 100%;
+  max-width: 17%;
+  flex-basis: 17%;
+}
+.Toggle-menu {
+  min-height: 13%;
+  padding-left: 15px;
+  padding-right: 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d6d6d6;
+}
+.searchboxpanel {
+  background: white;
+  width: 89%;
+  margin-top: 8px;
+  border-radius: 8px;
+  margin-left: 14px;
+}
+.tabpanel {
+  height: 63vh;
+  padding: 11px;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  overflow: auto;
+}
+.Toggle-menu .FFToggleButton_root .FFtoggle.MuiToggleButton-root.Mui-selected {
+  height: 2.75rem;
+  text-transform: capitalize;
+}
+.Toggle-menu .FFToggleButton_root .FFtoggle.MuiToggleButton-root {
+  height: 2.75rem;
+  text-transform: capitalize;
+}
+.inputheader {
+  padding: 11px;
+}
+.ToolWrapper {
+  margin: 12px;
+}
+.searchbox {
+  height: 2.75rem;
+}

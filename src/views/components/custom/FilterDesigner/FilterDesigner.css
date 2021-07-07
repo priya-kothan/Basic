@@ -1,0 +1,32 @@
+.FilterSaveBtn {
+  padding-right: 1rem;
+  float: right;
+  padding-top: 1rem;
+  position: absolute;
+  text-align: right;
+  bottom: 5%;
+  left: 0;
+  width: 100%;
+}
+.FilterDesigner {
+  overflow: auto;
+}
+.Filter {
+  height: 80%;
+  overflow: auto;
+}
+
+button#Save\ Filter {
+  /* width: 6.125rem; */
+  width: fit-content;
+}
+
+button#Add\ Filter {
+  /* width: 5.813rem; */
+  width: fit-content;
+}
+
+button#Add\ Group {
+  /* width: 6.25rem; */
+  width: fit-content;
+}

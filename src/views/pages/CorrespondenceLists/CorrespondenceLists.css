@@ -1,0 +1,7 @@
+.correspondence-lists {
+  display: flex;
+  flex-direction: column;
+}
+.ag-theme-balham {
+  padding-bottom: 0.125rem;
+}

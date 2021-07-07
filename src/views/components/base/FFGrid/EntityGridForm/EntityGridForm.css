@@ -1,0 +1,10 @@
+.entitygrid-form {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.entitygrid-form__name,
+.entitygrid-form__description {
+  background-color: #ffffff;
+}

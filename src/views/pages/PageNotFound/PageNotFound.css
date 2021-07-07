@@ -1,0 +1,50 @@
+.pagenotfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #cfcfcf;
+  height: 100vh;
+}
+
+.pagenotfound__title {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pagenotfound__header {
+  font-family: 'Segoe UI';
+  /* font-size: 0.875rem; */
+  font-size: 15rem;
+  font-weight: 600;
+  align-self: center;
+  font-family: 'Segoe UI';
+}
+
+.pagenotfound__subheader {
+  font-family: 'Segoe UI';
+  /* font-size: 0.875rem; */
+  font-size: 3rem;
+  align-self: center;
+  font-family: 'Segoe UI';
+}
+
+.pagenotfound__back {
+  display: flex;
+  font-family: 'Segoe UI';
+  /* font-size: 0.875rem;
+  margin: 0.35rem; */
+  font-size: 2rem;
+  margin: 2rem;
+  font-family: 'Segoe UI';
+}
+
+.pagenotfound__backicon {
+  margin-right: 1rem;
+}
+
+.pagenotfound__backicon .MuiSvgIcon-root {
+  font-size: 1em;
+  cursor: pointer;
+}

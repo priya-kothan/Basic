@@ -1,0 +1,92 @@
+.grid-cell-styledtext-blue {
+  position: static;
+  left: 0%;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: var(--primary-color);
+  flex: none;
+  order: 0;
+  align-self: center;
+  display: inline;
+}
+
+.grid-cell-styledtext-red {
+  position: static;
+  left: 0%;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: #c81d25;
+  flex: none;
+  order: 0;
+  align-self: center;
+  display: inline;
+}
+
+.grid-cell-styledtext-green {
+  position: static;
+  left: 0%;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: #2a7f62;
+  flex: none;
+  order: 0;
+  align-self: center;
+  display: inline;
+}
+
+.grid-cell-styledtext-red-underline {
+  position: static;
+  left: 0%;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: #c81d25;
+  flex: none;
+  order: 0;
+  align-self: center;
+  display: inline;
+  border-bottom: 1px solid currentColor;
+}
+
+.grid-cell-styledtext-green-underline {
+  position: static;
+  left: 0%;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: #2a7f62;
+  flex: none;
+  order: 0;
+  align-self: center;
+  display: inline;
+  border-bottom: 1px solid currentColor;
+}
+
+.grid-cell-styledtext-blue-underline {
+  position: static;
+  left: 0%;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  color: var(--primary-color);
+  flex: none;
+  order: 0;
+  align-self: center;
+  display: inline;
+  border-bottom: 1px solid currentColor;
+}

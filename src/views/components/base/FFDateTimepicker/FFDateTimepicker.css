@@ -1,0 +1,288 @@
+/* .dateTimePicker_root {
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 8px 16px !important;
+  padding: 0.42vw 0.83vw !important;
+  width: 11.88;
+  height: 3rem;
+  background: #ffffff;
+  border: 1px solid #d6d6d6 !important;
+  border: 0.05vh solid #d6d6d6 !important;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border-radius: 0.42vw;
+  flex: none;
+  align-self: center;
+  margin: 10px !important;
+  margin: 0.52vw !important;
+}
+
+.dateTimePicker_root
+  .MuiInputBase-input.MuiInput-input.MuiInputBase-inputAdornedEnd {
+  font-size: 13px;
+  font-size: 0.68vw;
+}
+
+.dateTimePicker_root
+  .MuiInputBase-root.MuiInput-root.MuiInput-underline:before {
+  border: none !important;
+}
+
+.dateTimePicker_root .MuiButtonBase-root.MuiIconButton-root {
+  padding: 1px !important;
+  padding: 0.05vw !important;
+}
+
+.dateTimePicker_root .Container {
+  display: flex;
+}
+
+.dateTimePicker_root label + .MuiInput-formControl {
+  margin-top: 0px;
+}
+
+.dateTimePicker_root .MuiInputBase-input {
+  padding: 10px 0px;
+}
+.dateTimePicker_root .MuiFormLabel-root {
+  margin-top: -24px;
+  margin-left: -12px;
+}
+
+.dateTimePicker_root .MuiFormControl-root .MuiInput-underline:before,
+.dateTimePicker_root .MuiFormControl-root .MuiInput-underline:after {
+  border-bottom: none;
+} */
+
+.filterControl .FFDateandTimePicker_root {
+  display: flex;
+  flex-direction: row;
+  border: 0.05vh solid var(--controlborder-colour);
+  box-sizing: border-box;
+  border-radius: 0.42vw;
+}
+
+.dateandtimepickers .filterControl {
+  padding-top: 17px;
+}
+.dateandtimepickers .filterControl .MuiInputLabel-shrink {
+  transform: inherit;
+  margin: -20px 0 0 0;
+}
+
+.filterControl .FFDateandTimePicker_root label + .MuiInput-formControl {
+  padding-left: 10px;
+  width: 100%;
+}
+/* .MuiFormLabel-root.Mui-focused {
+  color: #838383;
+} */
+.dateandtimepickers .filterControl .FFDateandTimePicker_root {
+  border: 1px solid var(--controlborder-colour);
+  width: 100%;
+}
+
+.dateandtimepickers .filterControl .MuiInputLabel-filled {
+  transform: inherit;
+  color: var(--controllabel-colour);
+}
+.dateandtimepickers
+  .filterControl
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  transform: inherit;
+  margin: -0.113rem;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+
+.dateandtimepickers .filterControl .MuiInputLabel-filled.MuiInputLabel-shrink,
+.dateandtimepickers
+  .filterControl
+  .MuiInputLabel-filled.MuiInputLabel-shrink.MuiInputLabel-marginDense {
+  transform: none;
+  color: var(--controllabel-colour);
+}
+.dateandtimepickers .filterControl .MuiFilledInput-underline:before {
+  border-bottom: none;
+}
+.dateandtimepickers .filterControl .MuiFilledInput-underline:after {
+  border-bottom: none;
+}
+.dateandtimepickers .filterControl .MuiFilledInput-root {
+  margin: 0.2rem 0;
+}
+.dateandtimepickers .filterControl .MuiFilledInput-input {
+  background: white;
+  box-sizing: border-box;
+  height: 2.05rem;
+  padding: 15px 10px 15px;
+  color: var(--controltext-colour);
+  font-family: Segoe UI Regular;
+  font-size: 0.875rem;
+}
+.dateandtimepickers .filterControl .MuiInputLabel-filled:hover {
+  border-bottom: none;
+}
+.dateandtimepickers .filterControl.MuiInputLabel-underline:hover:before {
+  border-bottom: none;
+}
+/* .MuiFilledInput-inputMarginDense {
+  padding-top: 15px;
+}  */
+
+.MuiFilledInput-root {
+  background-color: #ffffff;
+}
+.FFDateandTimePicker_root {
+  display: flex;
+  flex-direction: row;
+  border: 0.05vh solid var(--controlborder-colour);
+  box-sizing: border-box;
+}
+
+.dateandtimepickers {
+  padding-top: 17px;
+}
+.dateandtimepickers .MuiInputLabel-filled.MuiInputLabel-shrink {
+  transform: none;
+}
+
+.dateandtimepickers .MuiInputLabel-shrink {
+  transform: inherit;
+  margin: -22px 0 0 0px;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+  color: var(--controllabel-colour);
+}
+
+.FFDateandTimePicker_root label + .MuiInput-formControl {
+  /* margin-top: 16px; */
+  padding-left: 10px;
+  width: 100%;
+}
+.MuiFormLabel-root.Mui-focused {
+  /* color: #838383; */
+  color: var(--controltext-colour);
+}
+.dateandtimepickers .FFDateandTimePicker_root {
+  /* border: 1px solid #d6d6d6; */
+  border: 1px solid var(--controlborder-colour);
+  width: 100%;
+  /* border-radius: 8px; */
+}
+.dateandtimepickers .MuiFormLabel-root.Mui-focused {
+  color: var(--controllabel-colour);
+}
+
+/*  Formviwer Label Css */
+.Formviwer .MuiInputLabel-root {
+  display: none;
+}
+.dateandtimepickers .Formviwer-Label {
+  width: 250px; /* width: 40%; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 10px;
+  font-family: 'Segoe UI';
+  color: var(--controllabel-colour);
+}
+.Formviwer .MuiInput-underline:before {
+  border-bottom: none;
+}
+.Formviwer .MuiInput-underline:after {
+  border: none;
+}
+.Formviwer .MuiFilledInput-underline:after {
+  border: none;
+}
+.Formviwer .MuiFilledInput-underline:before {
+  border-bottom: none;
+}
+.MuiFilledInput-underline:before {
+  border-bottom: none;
+}
+.dateandtimepickers .MuiFilledInput-root {
+  background: white;
+}
+.MuiFilledInput-underline:after :hover {
+  border-bottom: none;
+  background-color: #ffffff;
+}
+
+/* .Formviwer .MuiFilledInput-underline :hover {
+  border: 0.5px solid var(--controlborder-colour) !important;
+} */
+.Formviwer .MuiFilledInput-input:hover:not(.Mui-disabled):before {
+  border-bottom: none;
+}
+.Formviwer .MuiFilledInput-adornedEnd:hover:not(.Mui-disabled):before {
+  border-bottom: none;
+}
+.formviewer .dateandtimepickers .FFDateandTimePicker_root {
+  border: 0px !important;
+  margin-left: 12px;
+}
+
+.formviewer .dateandtimepickers .MuiFilledInput-input {
+  padding: 5px 5px 5px 5px;
+  font-size: 0.875rem;
+  font-family: Segoe UI Regular;
+  color: var(--controltext-colour);
+}
+.dateandtimepickers .MuiFilledInput-input {
+  font-size: 0.875rem;
+  font-family: Segoe UI Regular;
+  color: var(--controltext-colour);
+}
+.dateandtimepickers .MuiFilledInput-root.Mui-focused {
+  background-color: white;
+}
+.formviewer .dateandtimepickers .MuiFilledInput-input :hover {
+  background: none;
+}
+.dateandtimepickers .MuiFilledInput-root:hover {
+  background: none;
+}
+
+/* .Formviwer .MuiFilledInput-adornedEnd :hover {
+  border: 0.5px solid var(--controlborder-colour) !important;
+  background: none;
+} */
+.dateandtimepickers .Formviwer :hover {
+  border: 0.5px solid var(--controlborder-colour) !important;
+}
+
+.formviewer .dateandtimepickers .MuiFilledInput-adornedEnd {
+  background: none;
+}
+
+.formviewer .dateandtimepickers {
+  display: flex;
+}
+.formviewer .FFDateandTimePicker_root {
+  /* width: 60%; */
+}
+.dateandtimepickers .Formviwer-Label {
+  margin: 0 0 0 0px;
+}
+.dateandtimepickers .FFDateandTimePicker_root .MuiFilledInput-input {
+  padding: 6px 12px 10px;
+  font-size: 0.875rem;
+  font-family: Segoe UI Regular;
+}
+
+.formviewer
+  .datetimepickers
+  .MuiFilledInput-adornedEnd
+  .MuiFilledInput-input.MuiInputBase-inputAdornedEnd.MuiFilledInput-inputAdornedEnd:hover {
+  border: none !important;
+  /* height: 20px; */
+}
+.formviewer
+  .dateandtimepickers
+  .FFDateandTimePicker_root
+  .MuiFilledInput-adornedEnd
+  .MuiFilledInput-input.MuiInputBase-inputAdornedEnd.MuiFilledInput-inputAdornedEnd:hover {
+  border: none !important;
+  /* height: 20px; */
+}

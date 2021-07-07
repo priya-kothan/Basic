@@ -1,0 +1,119 @@
+.correspondence-editor {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  display: grid;
+  grid-template-columns: 15% auto 15%;
+  grid-template-rows: 1fr;
+  height: 100%;
+  gap: 10px;
+}
+
+.correspondence-editor__save {
+  /* background: #ffffff; */
+  background: var(--secondary-color);
+  margin-left: auto;
+}
+
+.correspondence-editor__publish {
+  background: var(--secondary-color);
+}
+
+.correspondence-editor__publish .actionbutton__iconlabel {
+  color: #ffffff;
+}
+
+.correspondence-editor__template-editor {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto auto auto 1fr;
+  grid-gap: 1rem;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.correspondence-editor__template-editor_header {
+  font-weight: 600;
+  color: #303030;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+
+.correspondence-editor__template-editor_chips {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.correspondence-editor__template-editor_chips .MuiChip-label {
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+}
+
+.correspondence-editor__save .actionbutton__iconlabel {
+  /* color: var(--secondary-color); */
+  color: #ffffff;
+}
+.correspondence-editor__publish .actionbutton__icon .MuiSvgIcon-root {
+  fill: white;
+}
+.correspondence-editor__save .actionbutton__icon .MuiSvgIcon-root {
+  fill: white;
+}
+
+.correspondence-editor .MuiFormControl-root {
+  margin: 0rem 0rem 0rem 0rem;
+  margin-bottom: 0.281rem;
+  padding-left: 0.1rem;
+  padding-right: 0.225rem;
+}
+.correspondence-editor .MuiAutocomplete-root {
+  margin: 0.1rem 0 0.1rem 0;
+  padding-left: 0.1rem;
+}
+.correspondence-editor .textbox {
+  margin: 0.094rem 0 0.094rem 0;
+  padding-left: 0.1rem;
+  margin: 0rem;
+}
+.correspondence-editor .dropdown {
+  padding-left: 0.2rem;
+}
+
+.correspondence-editor .switch {
+  margin: 0rem 0rem 0rem 0.147em;
+}
+.correspondence-editor
+  .MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin-top: 0rem;
+  margin-left: 0.031rem;
+}
+.correspondence-editor
+  .textbox
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin: -0.113rem 0rem -0.113rem 0.027rem;
+}
+.correspondence-editor
+  .MuiFormControl-root.dropdown
+  .MuiInputLabel-filled.MuiInputLabel-shrink {
+  margin-left: 0.12rem;
+}
+.correspondence-editor-tools__header {
+  padding-left: 0.2rem;
+  margin-left: -0.075rem;
+}
+.correspondence-editor .correspondence-editor__template-editor .textbox {
+  padding-left: 0rem;
+}
+.correspondence-editor
+  .correspondence-editor__template-editor
+  .MuiFormControl-root {
+  padding: 0rem;
+}
+.correspondence-editor
+  .correspondence-editor__template-editor
+  .textbox
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin: 0rem -0.075rem;
+}

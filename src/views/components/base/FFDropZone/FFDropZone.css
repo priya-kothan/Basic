@@ -1,0 +1,43 @@
+.dropZoneLayer {
+  width: 395px;
+  width: 20.57vw;
+  height: 112px;
+  height: 10.37vh;
+  background: #ffffff;
+  border: 1px dashed #838383;
+  border: 0.05vw dashed #838383;
+  box-sizing: border-box;
+  border-radius: 6px;
+  border-radius: 0.31vw;
+}
+
+.dropZoneContainer {
+  font-family: SF Pro Display !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 14px !important;
+  font-size: 0.73vw !important;
+  line-height: 18px !important;
+  line-height: 1.67vh !important;
+  color: #595959 !important;
+  flex: none;
+  order: 0;
+  align-self: flex-start;
+  margin: 0px 16px !important;
+  margin: 0vw 0.83vw !important;
+}
+
+.dropzone {
+  text-align: center;
+  padding: 20px;
+  padding: 1.04vw;
+  border: 3px dashed #eeeeee;
+  border: 0.16vw dashed #eeeeee;
+  background-color: #fafafa;
+  color: #bdbdbd;
+}
+
+.Dropzone_root {
+  display: flex;
+  justify-content: space-between;
+}

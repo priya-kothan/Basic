@@ -1,0 +1,96 @@
+.FFTabs-root {
+  display: inline;
+  /* height: 100%; */
+}
+
+.FFTabs-root .tab-panel.Contenttext {
+  height: 100%;
+}
+
+.MuiTabs-root.tabclass {
+  /* position: absolute; */
+  width: 100%;
+  height: 40px;
+  height: 3.7vh;
+  background: #eff1f9;
+  box-shadow: inset 0px -1px 0px #eff1f9;
+  box-shadow: inset 0vw -0.05vw 0vw #eff1f9;
+  min-height: 40px;
+  min-height: 3.7vh;
+}
+.FFTabs-root .MuiTab-root.MuiTab-textColorInherit {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  opacity: 1;
+}
+.PrivateTabIndicator-colorSecondary-28 {
+  background-color: #b4bfe3 !important;
+}
+.FFTabcontrol {
+  max-width: 100%;
+}
+.FFTabcontrol .MuiTab-wrapper {
+  /* width: -webkit-fill-available; */
+  justify-content: inherit;
+  align-items: self-start;
+  max-width: 100%;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  font-size: 0.73vw;
+  letter-spacing: 0.1em;
+  flex-direction: inherit;
+  text-transform: uppercase;
+}
+.FFTabcontrol.Mui-selected {
+  background: #ffffff;
+  color: var(--primary-color);
+  background: #ffffff;
+  box-shadow: inset 0px -1px 0px var(--primary-color);
+  box-shadow: inset 0vw -0.05vw 0vw var(--primary-color);
+}
+.FFTabcontrol.Mui-selected .MuiTab-wrapper .labelcount {
+  width: 29px;
+  width: 1.51vw;
+  height: 24px;
+  height: 2.22vh;
+  left: 100%;
+  position: sticky;
+  color: white;
+  background: var(--primary-color);
+  border-radius: 100px;
+  border-radius: 5.21vw;
+  margin: 0px 0 0 5px;
+  margin: 0vw 0 0 0.26vw;
+  max-width: 100%;
+}
+.FFTabcontrol .MuiTab-wrapper .labelcount {
+  max-width: 100%;
+  width: 29px;
+  width: 1.51vw;
+  height: 24px;
+  height: 1.25vw;
+  left: 100%;
+  top: 8px;
+  top: 0.42vw;
+  color: white;
+  position: sticky;
+  background: #595959;
+  border-radius: 100px;
+  border-radius: 5.21vw;
+  margin: 0px 0 0 5px;
+  margin: 0vw 0 0 0.26vw;
+}
+.Contenttext {
+  /* margin: 44px 0 0 0; */
+}
+
+.tabclass .MuiTabs-indicator {
+  background-color: #b4bfe3;
+}
+.tabclass .MuiTabs-scrollable {
+  overflow: unset;
+}

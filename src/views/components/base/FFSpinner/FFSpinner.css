@@ -1,0 +1,7 @@
+.ffspinner-main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  top: 50vh;
+}

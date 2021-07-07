@@ -1,0 +1,16 @@
+.ffavatar {
+  display: flex;
+  cursor: pointer;
+}
+
+.ffavatar__avatar-image {
+  width: 40px;
+  height: 40px;
+}
+
+.ffavatar .MuiAvatar-colorDefault {
+  background-color: #d7ddf0;
+  color: #000000;
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+}

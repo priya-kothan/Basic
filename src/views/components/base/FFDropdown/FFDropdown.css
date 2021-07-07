@@ -1,0 +1,140 @@
+.dropdown {
+  width: 100%;
+}
+
+/*  variant type filled */
+.MuiFormControl-root.dropdown .MuiInputLabel-filled {
+  transform: inherit;
+  /* color: #838383; */
+  color: var(--controllabel-colour);
+}
+
+.MuiFormControl-root.dropdown .MuiInputLabel-filled.MuiInputLabel-shrink {
+  transform: none;
+  /* color: #838383; */
+  color: var(--controllabel-colour);
+}
+.MuiFormControl-root.dropdown .MuiFilledInput-underline:before {
+  border-bottom: none;
+}
+.MuiFormControl-root.dropdown .MuiFilledInput-underline:after {
+  border-bottom: none;
+}
+.MuiFormControl-root.dropdown .MuiFilledInput-root {
+  margin-top: 20px;
+  /* border-radius: 8px; */
+}
+.MuiFormControl-root.dropdown .MuiFilledInput-input {
+  background: white;
+  /* border: 1px solid #d6d6d6; */
+  border: 1px solid var(--controlborder-colour);
+  /* border-radius: 8px; */
+  box-sizing: border-box;
+  height: 35px;
+  padding: 7px 12px 20px;
+  color: var(--controltext-colour);
+  font-family: Segoe UI Regular;
+  font-size: 0.875rem !important;
+}
+.MuiFormControl-root.dropdown .MuiFilledInput-root:hover {
+  border-bottom: none;
+}
+.MuiFormControl-root.dropdown .MuiFilledInput-underline:hover:before {
+  border-bottom: none;
+}
+.MuiFormControl-root.dropdown-inputMarginDense {
+  padding-top: 15px;
+}
+
+/*  end*/
+
+/* Cell css -- Start*/
+
+.FFDropdownstatus-open-outer .MuiFilledInput-input {
+  background-color: red !important;
+}
+
+.FFDropdownstatus-closed-outer .MuiFilledInput-input {
+  background-color: green !important;
+}
+
+.FFDropdownstatus-pending-outer .MuiFilledInput-input {
+  background-color: lightsalmon !important;
+}
+.FFDropdownstatus-onhold-outer .MuiFilledInput-input {
+  background-color: yellow !important;
+}
+
+/* Cell css -- End*/
+
+/* .MuiFormControl-root.dropdown .MuiInputLabel-filled {
+  transform: inherit;
+  margin-top: -8px;
+}
+.MuiFormControl-root.dropdown .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  transform: none;
+  margin-top: -8px;
+  border-radius: 8px;
+}
+
+/*  end*/
+
+.MuiInputBase-root {
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+.MuiSelect-icon {
+  color: black;
+}
+
+/*  Formviwer Label Css -- Start */
+.autocompletectrl {
+  display: flex;
+}
+
+.Formviwer .MuiInputLabel-root {
+  display: none;
+}
+
+span.FormviwerFFDropdown-Label {
+  width: 250px; /* width: 40%; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-top: 15px;
+  color: var(--controllabel-colour);
+  font-family: 'Segoe UI';
+}
+/* .Formviwer .MuiInput-underline:before {
+  border-bottom: none;
+} */
+
+.Formviwer .MuiInput-underline:after {
+  border: none;
+}
+.Formviwer .Mui-focused .MuiInputBase-inputMarginDense:hover {
+  border: none;
+}
+
+.MuiSelect-select:focus {
+  background: white !important;
+  border: 1px solid var(--controlborder-colour);
+  display: block;
+}
+.Formviwer.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-marginDense.MuiInput-marginDense
+  svg.MuiSvgIcon-root.MuiSelect-icon {
+  display: none;
+}
+.dropdown
+  .Formviwer.MuiInputBase-formControl.MuiInput-formControl.MuiInputBase-marginDense.MuiInput-marginDense:hover
+  svg.MuiSvgIcon-root.MuiSelect-icon {
+  display: block;
+  color: black;
+}
+
+/* .Formviwer .MuiInputBase-inputMarginDense {
+  padding: 7px;
+} */
+/* .Formviwer .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: none;
+} */
+/*  Formviwer Label Css -- Start */

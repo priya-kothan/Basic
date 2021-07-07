@@ -1,0 +1,168 @@
+.textbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+  margin: 2.8px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  /* padding-top: 18px; */
+}
+
+.textbox .MuiTextField-root {
+  width: 100%;
+}
+
+/*  variant type filled */
+.textbox .MuiInputLabel-filled {
+  transform: inherit;
+  /* color: #838383; */
+  color: var(--controllabel-colour);
+}
+.textbox .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  transform: inherit;
+  margin: -0.113rem;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+
+.textbox .MuiInputLabel-filled.MuiInputLabel-shrink,
+.textbox .MuiInputLabel-filled.MuiInputLabel-shrink.MuiInputLabel-marginDense {
+  transform: none;
+  /* color: #838383; */
+  color: var(--controllabel-colour);
+}
+.textbox .MuiFilledInput-underline:before {
+  border-bottom: none;
+}
+.textbox .MuiFilledInput-underline:after {
+  border-bottom: none;
+}
+.textbox .MuiFilledInput-root {
+  margin-top: 20px;
+  /* border-radius: 8px; */
+}
+.textbox .MuiFilledInput-input {
+  background: white;
+  /* border: 1px solid #d6d6d6; */
+  border: 1px solid var(--controlborder-colour);
+  /* border-radius: 8px; */
+  box-sizing: border-box;
+  height: 35px;
+  padding: 15px 10px 15px;
+  /* color: black; */
+  color: var(--controltext-colour);
+  font-family: Segoe UI Regular;
+  font-size: 0.875rem;
+}
+.textbox .MuiInputLabel-filled:hover {
+  border-bottom: none;
+}
+.textbox .MuiInputLabel-underline:hover:before {
+  border-bottom: none;
+}
+.MuiFilledInput-inputMarginDense {
+  padding-top: 15px;
+}
+/*  end*/
+
+/*  outlined type filled */
+
+.textbox .MuiOutlinedInput-root {
+  height: 3rem;
+  /* border-radius: 8px; */
+}
+
+/*  end*/
+
+.textbox .MuiInputBase-inputMultiline {
+  height: auto;
+  padding-left: 12px;
+  padding-top: 11px;
+}
+
+.textbox .MuiFilledInput-multiline.MuiFilledInput-marginDense {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.textbox .MuiInputBase-multiline {
+  padding-top: 0px;
+}
+.textbox .MuiFilledInput-multiline {
+  padding: 0px 0px 0px;
+}
+.textbox .MuiInputBase-multiline.MuiInputBase-marginDense {
+  padding: 0px 0 0px;
+  height: auto;
+}
+
+.textbox .MuiFilledInput-underline.Mui-disabled:before {
+  border-bottom: none;
+}
+.textbox .MuiFilledInput-underline:hover:before {
+  border-bottom: none;
+}
+
+/*  Formviwer Label Css */
+
+.Formviwer .MuiInputLabel-root {
+  display: none;
+}
+span.Formviwer-Label {
+  width: 250px; /* width: 40%; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: -3px;
+  font-family: 'Segoe UI';
+  color: var(--controllabel-colour);
+}
+
+.Formviwer .MuiInput-underline:before {
+  border-bottom: none;
+}
+
+.Formviwer .MuiInput-underline:after {
+  border: none;
+}
+.Formviwer .Mui-focused {
+  border: 1px solid var(--controlborder-colour);
+}
+.Formviwer .Mui-focused .MuiInputBase-inputMarginDense:hover {
+  border: none;
+}
+
+.Formviwer .MuiInputBase-inputMarginDense:hover {
+  border: 1px solid var(--controlborder-colour);
+}
+
+/* .Formviwer .Mui-focused.MuiInputBase-formControl:hover 
+{
+ border: 1px solid red;
+  
+} */
+.Formviwer label + .MuiInput-formControl {
+  margin-top: 7px;
+  height: 35px;
+}
+
+.Formviwer .MuiInputBase-inputMarginDense {
+  padding: 7px;
+}
+
+.Formviwer .MuiInput-underline:hover:not(.Mui-disabled):before {
+  border-bottom: none;
+}
+.Formviwer .MuiInput-underline:before {
+  border-bottom-style: none !important;
+}
+.Formviwer .MuiInput-underline::after {
+  border-bottom-style: none !important;
+}
+
+.FilterComponent .textbox .MuiFilledInput-root {
+  margin-top: 1.4375rem;
+}
+span.MuiFormLabel-asterisk.MuiInputLabel-asterisk {
+  color: red;
+}
+/* end */

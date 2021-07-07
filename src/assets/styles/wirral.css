@@ -1,0 +1,25 @@
+:root {
+  --primary-color: #343233;
+  --secondary-color: #428b39;
+}
+.branding {
+  background: #428b39;
+  height: 4.24vh;
+  width: 2.08vw;
+  border-radius: 2px;
+  padding: 4px 1px 1px 1px;
+}
+.sidebar .sidebar-brand img {
+  width: 1.62vw;
+  height: 3.31vh;
+  background: #428b39;
+  padding: 0px;
+}
+
+.actionbar {
+  background-color: #fefefe;
+}
+
+.actionbutton__iconlabel {
+  color: #0b0c0c;
+}

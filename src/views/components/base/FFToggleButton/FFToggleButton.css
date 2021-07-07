@@ -1,0 +1,67 @@
+.MuiToggleButton-root {
+  border-radius: 8px;
+  border-radius: 0.42vw;
+  border: 1px solid #d6d6d6;
+  border: 0.05 solid #d6d6d6;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+}
+.MuiToggleButtonGroup-root {
+  position: static;
+  height: 40px;
+  height: 3.7vh;
+  border-radius: 12px;
+  border-radius: 0.63vw;
+}
+.FFToggleButton_root .FFtoggle.MuiToggleButton-root.Mui-selected {
+  background: var(--primary-color);
+  width: auto;
+  height: 40px;
+  height: 3.7vh;
+  font-size: 14px;
+  font-size: 0.83vw;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  align-self: center;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+}
+.FFToggleButton_root .FFtoggle.MuiToggleButton-root {
+  width: auto;
+  height: 40px;
+  height: 3.7vh;
+
+  color: #303030;
+  flex: none;
+  order: 0;
+  align-self: center;
+  margin: 10px 0px;
+  margin: 0.52vw 0vw;
+  /* border-radius: 8px; */
+  background-color: #acacac;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-size: 0.875rem;
+}
+
+.MuiToggleButton-Tooltip {
+  margin-bottom: 5px;
+  margin-bottom: 0.26vw;
+}
+
+.MuiToggleButton-Tooltip_root {
+  justify-content: center;
+  display: inline-flex;
+  /* align-items: flex-end; */
+}
+
+.FFTabs-root .FFToggleButton_root .MuiButtonBase-root {
+  height: 30px;
+  height: 1.56vw;
+}
+
+.FFTabs-root .FFToggleButton_root .MuiButtonBase-root.Mui-selected {
+  height: 30px;
+  height: 1.56vw;
+}

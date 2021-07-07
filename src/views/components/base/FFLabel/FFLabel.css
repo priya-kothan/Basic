@@ -1,0 +1,40 @@
+.casesummary-root .summary-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0.93vh 0.52vw;
+}
+
+.casesummary-root .summary-item .summary-header {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.73vw;
+  line-height: 1.48vh;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 0.93vh 0.52vw;
+}
+
+.summary-item .summary-header {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  /* color: #303030; */
+  color: var(--controllabel-colour);
+}
+
+.casesummary-root .summary-item .summary-description {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.83vw;
+  line-height: 1.67vh;
+  color: #000000;
+  padding: 0.93vh 0.52vw;
+}

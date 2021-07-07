@@ -1,0 +1,159 @@
+.entitygrid-designer {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  display: flex;
+  height: 100%;
+  background: #f5f5f5;
+  gap: 1rem;
+}
+
+.entitygrid-designer__workspace {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+}
+
+.entitygrid-designer .ag-theme-balham {
+  /* flex-basis: 75%; */
+}
+
+.entitygrid-designer .ag-theme-balham .ag-root-wrapper {
+  background: #f5f5f5;
+}
+
+.entitygrid-designer .ag-theme-balham .ag-root {
+  height: 100%;
+  border: 1px solid #d6d6d6;
+  /* background-color: #ffffff; */
+}
+
+.entitygrid-designer .ag-theme-balham .ag-root-wrapper-body {
+  gap: 0.5rem;
+}
+
+.entitygrid-designer .addcolumnheader-cell {
+  background-color: #f5f5f5;
+}
+
+.entitygrid-designer .ag-react-container {
+  width: 100%;
+}
+
+.entitygrid-designer .ag-virtual-list-container {
+  /* height: 100% !important; */
+}
+
+.entitygrid-designer .ag-virtual-list-item {
+  /* position: unset; */
+  padding: 1rem 0rem;
+}
+
+.entitygrid-designer .ag-theme-balham .ag-column-select-header {
+  height: auto;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.entitygrid-designer .ag-column-panel .ag-input-field-input {
+  padding-top: 10.5px;
+  padding-bottom: 10.5px;
+}
+
+.entitygrid-designer__save {
+  /* background: #ffffff; */
+  background: var(--secondary-color);
+  margin-left: auto;
+}
+.entitygrid-designer__save .actionbutton__iconlabel {
+  color: #ffffff;
+}
+
+.entitygrid-designer__publish {
+  background: var(--secondary-color);
+}
+
+.entitygrid-designer__publish .actionbutton__iconlabel {
+  color: #ffffff;
+}
+
+.entitygrid-designer .ag-side-buttons {
+  display: none;
+}
+
+.entitygrid-designer__workspace {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 75%;
+}
+/*fixed width setup*/
+.entitygrid-designer__title {
+  padding: 0.5rem 0rem 0.5rem 1.56rem;
+  width: 226px;
+}
+.entitygrid-designer__title
+  .MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-shrink.MuiInputLabel-marginDense {
+  margin-left: -0.088rem;
+}
+
+.entitygrid-designer__save .actionbutton__iconlabel {
+  /* color: var(--secondary-color); */
+  color: #ffffff;
+}
+.entitygrid-designer__publish .actionbutton__icon .MuiSvgIcon-root {
+  fill: white;
+}
+.entitygrid-designer__save .actionbutton__icon .MuiSvgIcon-root {
+  fill: white;
+}
+/* .entitygrid-designer .entitygrid-designer__properties .textbox {
+  margin: 0rem;
+} */
+.entitygrid-designer
+  .entitygrid-designer__properties
+  .MuiInputLabel-filled.MuiInputLabel-marginDense,
+.entitygrid-designer .switch {
+  margin-left: -0.07rem;
+}
+.entitygrid-designer
+  .entitygrid-designer__properties
+  .dateandtimepickers
+  .MuiInputLabel-filled.MuiInputLabel-shrink {
+  margin-left: -0.14rem;
+}
+.entitygrid-designer .textbox {
+  margin-left: 0rem;
+  margin-right: 0rem;
+}
+.entitygrid-designer .dropdown,
+.entitygrid-designer .textbox,
+.entitygrid-designer .autocomplete {
+  margin-bottom: 0.188rem;
+  margin-top: 0.188rem;
+}
+.Filter
+  .MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  max-width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.entitygrid-designer .entitygrid-designer__properties .addmodal {
+  width: 80% !important;
+}
+/* .entitygrid-designer
+  .entitygrid-designer__properties
+  .MuiAutocomplete-root.autocomplete.undefined.MuiAutocomplete-hasPopupIcon {
+  padding-left: 0rem;
+} */
+.entitygrid-designer
+  .MuiAutocomplete-root.autocomplete.undefined.MuiAutocomplete-hasPopupIcon {
+  padding-left: 0rem;
+}
+@media (max-width: 80em) {
+  .entitygrid-designer .entitygrid-designer__properties .addmodal {
+    width: 100% !important;
+  }
+}

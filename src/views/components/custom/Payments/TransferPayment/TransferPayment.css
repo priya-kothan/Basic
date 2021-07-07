@@ -1,0 +1,60 @@
+.transferPayment_Model .addmodal {
+  width: 920px;
+}
+
+.transferPayment_Model .addmodal__content {
+  font-size: 0.875rem;
+  padding: 0rem 2rem;
+}
+
+.transferPayment_Model .addmodal__title {
+  font-size: 0.875rem;
+}
+
+.MuiButton-disableElevation.Mui-disabled {
+  opacity: 0.4;
+}
+
+.transferPayment_Model .addmodal .RecordTransferFooter_Btn {
+  width: 7.813rem;
+}
+
+.div-field-transfer {
+  display: inline-flex;
+  margin: 10px;
+  max-width: 100%;
+  min-width: 9%;
+}
+
+#EntityPopup .addmodal__footer .button#Transfer\ Payment {
+  bottom: 0;
+}
+
+@media (max-width: 80em) {
+  .div-container-transfer {
+    width: 26.25rem;
+  }
+  .div-field-transfer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 60em) {
+  .div-container-transfer {
+    width: 100%;
+    top: 0;
+  }
+  .div-field-transfer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .div-container-transfer {
+    width: 100%;
+    top: 0;
+  }
+  .div-field-transfer {
+    width: 100%;
+  }
+}

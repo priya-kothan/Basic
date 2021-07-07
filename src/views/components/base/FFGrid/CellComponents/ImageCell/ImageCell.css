@@ -1,0 +1,11 @@
+.ImageCell-root {
+  display: flex;
+  justify-content: center;
+}
+
+.ImageCell-root > img {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+}

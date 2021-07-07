@@ -1,0 +1,84 @@
+.file-manager {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-rows: 40px auto;
+  height: 100%;
+}
+
+.file-manager .file-manager__foldertree {
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
+  border-right: 1px solid darkgrey;
+}
+
+.file-manager .file-manager__viewicons {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  border-bottom: 1px solid darkgrey;
+  display: grid;
+  justify-items: end;
+  align-items: center;
+}
+
+.file-manager .file-manager__listview {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+.fileupload-view {
+  display: flex;
+  padding-top: 7px;
+  padding-top: 0.36vw;
+}
+
+.fileupload-container {
+  padding-top: 10px;
+  padding-top: 0.52vw;
+  overflow-x: auto;
+  height: 65%;
+  overflow-y: auto;
+}
+
+.fileupload-view-middle {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding: 0vw 1.11 vh;
+  width: 27vw;
+  overflow-wrap: break-word;
+  padding-top: 6px;
+  padding-top: 0.31vw;
+}
+
+.fileupload-view-first {
+  width: 1.67vw;
+  height: 2.96vh;
+  left: 0vh;
+  top: 0.63vw;
+
+  /* Neutral / Platinum / 60 */
+
+  background: #ececec;
+  /* Neutral / Jet / 20 */
+
+  border: 1px solid #d6d6d6;
+  box-sizing: border-box;
+  border-radius: 50%;
+  padding: 3px;
+  padding: 0.16vw 0.28vh;
+}
+
+.fileupload-view-last {
+  color: #c81d25;
+}
+
+.dropzone {
+  height: 8vh !important;
+  width: 100%;
+}
+
+.fileview_folder__content .autocomplete {
+  padding-top: 1rem;
+}
+.PopupFileViewer_Btn_Close {
+  margin-left: 1rem;
+}

@@ -1,0 +1,68 @@
+.correspondence-editor-tools {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto 1fr;
+  gap: 1rem;
+  padding: 10px;
+  overflow: auto;
+  background: #f5f5f5;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+}
+
+.correspondence-editor-tools__header {
+  color: #000000;
+  font-weight: 600;
+  border-bottom: 1px solid #d6d6d6;
+  line-height: 2rem;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+
+.correspondence-editor-tools__items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: auto;
+  padding-top: 5px;
+  font-size: 0.875rem;
+  font-family: Segoe UI Regular;
+}
+
+.correspondence-editor-tools__entity,
+.correspondence-editor-tools__search {
+  /* background-color: #ffffff; */
+}
+
+.correspondence-editor-tools__entityfields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+}
+
+.correspondence-editor-tools__emailtemplates {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+  padding-top: 5px;
+}
+
+.correspondence-editor-tools__templates {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  overflow: auto;
+}
+
+.correspondence-editor-tools__entityfields_item {
+  display: flex;
+  align-items: center;
+  cursor: grab;
+}
+
+.correspondence-editor-tools__emailtemplates_item {
+  display: flex;
+  align-items: center;
+}

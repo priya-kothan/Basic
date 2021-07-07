@@ -1,0 +1,720 @@
+.Grid-container {
+  background-color: #f5f5f5;
+  height: calc(100vh - 10.99vh);
+  width: 100%;
+}
+.Grid-panel {
+  height: 100%;
+}
+.Left-panel {
+  height: 82vh;
+  background-color: #f5f5f5;
+  min-width: 16.75rem;
+}
+.Main-panel {
+  height: 100%;
+}
+.Right-panel {
+  height: 100%;
+}
+.Grid-rootleftpanel {
+  padding-top: 1.2rem !important;
+  padding-left: 1.5rem !important;
+  height: 100%;
+  max-width: 18%;
+  flex-basis: 18%;
+}
+.Grid-rootmainpanel {
+  padding-top: 20px !important;
+  flex-grow: 0;
+  max-width: 65%;
+  flex-basis: 65%;
+  height: 100%;
+}
+.Grid-rootrightpanel {
+  padding-top: 20px !important;
+  height: 100%;
+  max-width: 17%;
+  flex-basis: 17%;
+}
+.Toggle-menu {
+  min-height: 10%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d6d6d6;
+}
+.searchboxpanel {
+  background: white;
+  width: 13.5vw;
+  margin-top: 8px;
+  /* border-radius: 8px; */
+  margin-left: 5px;
+}
+.tabpanel {
+  height: 63vh;
+  padding: 11px;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  overflow: auto;
+}
+.Toggle-menu .FFToggleButton_root .FFtoggle.MuiToggleButton-root.Mui-selected {
+  height: 2.75rem;
+  text-transform: capitalize;
+  /* width: 61%;
+  font-size: 0.8em; */
+}
+
+.Toggle-menu .FFToggleButton_root .FFtoggle.MuiToggleButton-root {
+  width: min-content;
+  height: 2.75rem;
+  text-transform: capitalize;
+}
+.inputheader {
+  padding: 11px;
+  font-size: 0.875rem;
+  font-family: 'Segoe UI';
+}
+.ToolWrapper {
+  margin: 12px;
+}
+.searchbox {
+  height: 2.75rem;
+}
+
+.form-designer__save {
+  /* background: #ffffff; */
+  background: var(--secondary-color);
+  margin-left: auto;
+}
+
+.form-designer__publish {
+  background: var(--secondary-color);
+}
+
+.form-designer__save.actionbutton__iconlabel {
+  color: #ffffff;
+}
+.form-designer__save .actionbutton__icon .MuiSvgIcon-root {
+  fill: white;
+}
+.form-designer__save .actionbutton__iconlabel {
+  /* color: var(--secondary-color); */
+  color: #ffffff;
+}
+.form-designer__publish .actionbutton__iconlabel {
+  color: #ffffff;
+}
+.form-designer__publish .actionbutton__icon .MuiSvgIcon-root {
+  fill: white;
+}
+.FormDesigner_Header-root {
+  background: #f9f9f9;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  /* width: 200px; */
+  width: 100%;
+  height: 64px;
+  padding: 0rem 1rem;
+  gap: 1rem;
+}
+.FormDesigner_Header {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  color: #303030;
+  flex-grow: 2;
+  padding-top: 0.5rem;
+}
+
+.FormDesigner_Header-sub {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  color: #303030;
+  flex-grow: 2;
+}
+
+.ToolWrapper.disable {
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.ToolWrapper .MuiGrid-grid-xs-6 {
+  flex-basis: 70%;
+  max-width: 70%;
+  font-family: 'Segoe UI Regular';
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.section-close-thik {
+  color: #777;
+  font: 1.1rem/100% arial, sans-serif;
+  position: absolute;
+  right: -0.1rem;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  top: 0.1rem;
+  display: none;
+  cursor: pointer;
+  width: 1.2vw;
+  height: 2vh;
+}
+
+/* .section-close-thik:after {
+  content: '✖';  UTF-8 symbol 
+} */
+
+.section-close-thik .MuiSvgIcon-root {
+  width: 0.7em;
+  height: 0.7em;
+  color: red;
+  z-index: 10;
+}
+
+.sectionContainer-sub {
+  position: relative;
+}
+
+.sectionContainer-sub:hover .section-close-thik {
+  display: block;
+}
+
+.element-close-thik {
+  color: #777;
+  font: 1.2rem/100% arial, sans-serif;
+  position: absolute;
+  right: -0.4rem;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  top: -0.5rem;
+  display: none;
+  cursor: pointer;
+  width: 1vw;
+  height: 2.5vh;
+}
+
+/* .element-close-thik:after {
+  content: '✖';  UTF-8 symbol
+} */
+
+.element-close-thik .MuiSvgIcon-root {
+  width: 0.7em;
+  height: 0.7em;
+  color: red;
+  z-index: 10;
+}
+
+.ElementContainer-sub {
+  position: relative;
+}
+
+.ElementContainer-sub:hover .element-close-thik {
+  display: block;
+}
+
+.column-close-thik {
+  color: #777;
+  font: 1.3rem/100% arial, sans-serif;
+  position: absolute;
+  right: -0.5rem;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  top: -0.5rem;
+  display: none;
+  width: 1.2vw;
+  height: 2vh;
+  cursor: pointer;
+}
+
+/* .column-close-thik:after {
+  content: '✖';  UTF-8 symbol 
+} */
+
+.column-close-thik .MuiSvgIcon-root {
+  width: 0.7em;
+  height: 0.7em;
+  color: red;
+  z-index: 10;
+}
+
+.DesignerColumn-sub {
+  position: relative;
+  font-size: 0.875rem;
+  font-family: Segoe UI;
+}
+
+.DesignerColumn-sub:hover .column-close-thik {
+  display: block;
+  /* cursor: pointer; */
+}
+
+.tab-close-thik {
+  color: #777;
+  font: 1rem/100% arial, sans-serif;
+  position: absolute;
+  right: -0.5rem;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #fff;
+  top: -0.5rem;
+  display: none;
+  cursor: pointer;
+}
+
+.tab-close-thik:after {
+}
+
+.tab-close-thik .MuiSvgIcon-root {
+  width: 0.7em;
+  height: 0.7em;
+  color: red;
+  z-index: 10;
+}
+
+.FormDesignertab {
+  position: relative;
+  font-family: Segoe UI;
+  font-size: 0.875rem;
+}
+.FormDesignertab:hover .tab-close-thik {
+  /* cursor: pointer; */
+  display: block;
+}
+
+.SideBar_Field {
+  height: 59vh;
+  padding-top: 1vh;
+  overflow-y: auto;
+}
+.SideBar_Component {
+  height: 64vh;
+  padding-top: 1vh;
+  overflow-y: auto;
+}
+.FERightPanel_fields_Items .MuiInputBase-input {
+  /* height: 0em !important; */
+  /* height: 3em !important; */
+  padding-bottom: 1rem;
+  font-family: 'Segoe UI Regular';
+  margin-left: 0.031rem;
+}
+
+.FERightPanel_fields_Items .textbox .MuiTextField-root {
+  /* margin-top: 0.031rem;
+  margin-bottom: 0.031rem; */
+  margin-top: 0.188rem;
+  margin-bottom: 0.188rem;
+}
+
+.FERightPanel_fields_Items
+  .textbox
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin-top: 0.031rem;
+}
+
+.Grid-container .MuiGrid-spacing-xs-3 > .MuiGrid-item {
+  padding: 0rem;
+  padding-left: 1rem;
+}
+
+.FERightPanel_fields .textbox {
+  display: contents;
+}
+
+.SideBar .Autocompletepanel {
+  /* background: white; */
+  width: 13.5vw;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  margin-left: 0.35rem;
+}
+.SideBar
+  .Autocompletepanel
+  .MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin-left: -0.089rem;
+}
+
+.FormDesigner_Filter {
+  float: right;
+  margin-top: -3.5rem;
+}
+
+.FormDesigner_Modal .addmodal {
+  width: 60%;
+}
+.FilterDesigner .MuiInputLabel-outlined.MuiInputLabel-marginDense {
+  word-break: break-all;
+  font-size: 0.8rem;
+  width: 86%;
+}
+
+.FERightPanel_Items_content
+  .FERightPanel_fields_Items
+  .MuiInputLabel-formControl {
+  top: -0.313rem;
+}
+.FERightPanel_fields .FERightPanel_Items_content .FERightPanel_Sub_header {
+  padding: 0.5rem 0rem 0.5rem 0rem;
+  margin-left: -0.062rem;
+}
+.FERightPanel_fields .FERightPanel_fields_Items {
+  margin: 0.031rem 0rem 0.031rem 0rem;
+}
+.FERightPanel_fields
+  .FERightPanel_Items_content
+  .textbox
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  margin: 0.08rem 0rem 0rem -0.03rem;
+}
+.FERightPanel_fields .FERightPanel_Switch .Switch__header {
+  margin: 0rem 0rem 0rem -0.045rem;
+}
+.FERightPanel_Content_title,
+.FERightPanel_Sub_title {
+  margin-left: 0.02rem;
+}
+.Filter
+  .MuiAutocomplete-root.autocomplete
+  .MuiInputLabel-filled.MuiInputLabel-marginDense {
+  max-width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.FormDesigner_Modal .addmodal {
+  width: 80% !important;
+}
+@media screen and (min-width: 451px) and (max-width: 1024px) {
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root.Mui-selected {
+    width: 33%;
+    font-size: 0.8em;
+    display: inline;
+    margin-left: -0.4rem;
+  }
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root:not(.Mui-selected) {
+    padding-right: 9px;
+    padding-left: 8px;
+  }
+  .Grid-rootmainpanel {
+    max-width: 52% !important;
+  }
+  .FERightPanel_Content {
+    min-width: 15rem !important;
+  }
+  .Left-panel {
+    height: 73.5vh !important;
+    min-width: 12.5rem !important;
+  }
+  .Grid-rootleftpanel {
+    max-width: 22%;
+  }
+  .FERightPanel_fields_Items {
+    width: 13rem !important;
+  }
+  .FERightPanel_fields_Items_Child {
+    margin-left: 1.5rem !important;
+  }
+
+  .FERightPanel_fields_Items_Child {
+    width: 12rem !important;
+  }
+  .FERightPanel_fields_Items_Child .FFMultiSelect_root .MuiFormControl-root {
+    /* min-width: 18.42vw !important; */
+    width: 95%;
+  }
+  .FERightPanel_Items_content {
+    height: 90% !important;
+  }
+  .searchboxpanel {
+    width: 13.5vw !important;
+  }
+  .SideBar_Field {
+    height: 45vh;
+  }
+  .SideBar_Component {
+    height: 56vh;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1360px) {
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root:not(.Mui-selected) {
+    padding-right: 1px;
+    padding-left: 1px;
+  }
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root
+    .Mui-selected {
+    width: 56% !important;
+    font-size: 0.7em !important;
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+  .Toggle-menu .MuiToggleButtonGroup-root {
+    margin-left: -0.5rem;
+  }
+  .MuiToggleButton-label {
+    font-family: 'Segoe UI';
+  }
+
+  .Left-panel {
+    height: 73vh !important;
+    /* min-width: 13.5rem !important; */
+  }
+  .Grid-rootmainpanel {
+    max-width: 60% !important;
+  }
+  .FERightPanel_Content {
+    min-width: 17.75rem !important;
+  }
+
+  .actionbar + div {
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    margin: 0rem !important;
+  }
+
+  .Toggle-menu {
+    min-height: 10%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  /* .Grid-rootleftpanel {
+    max-width: 20%;
+  } */
+  /* .Toggle-menu {
+    padding-left: 0.5rem;
+  } */
+
+  .FERightPanel_fields_Items_Child .FFMultiSelect_root .MuiFormControl-root {
+    /* min-width: 15vw !important; */
+    width: 95%;
+  }
+  .SideBar_Field {
+    height: 44vh;
+  }
+  .SideBar_Component {
+    height: 49vh;
+    padding-top: 1vh;
+    overflow-y: auto;
+    width: 13rem;
+  }
+  .Left-panel {
+    height: 73.5vh !important;
+    min-width: 5.5rem !important;
+  }
+}
+@media screen and (min-width: 1361px) and (max-width: 1365px) {
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root:not(.Mui-selected) {
+    padding-right: 7px;
+    padding-left: 7px;
+  }
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root
+    .Mui-selected {
+    width: 61% !important;
+    font-size: 0.7em !important;
+    padding: 11px;
+  }
+  .Toggle-menu .MuiToggleButtonGroup-root {
+    margin-left: -0.44rem;
+  }
+  .FERightPanel_Items_content {
+    height: 95%;
+  }
+  .Left-panel {
+    height: 83vh !important;
+    min-width: 15.75rem !important;
+  }
+  .Grid-rootmainpanel {
+    max-width: 63% !important;
+  }
+  .FERightPanel_Content {
+    min-width: 17.75rem !important;
+  }
+  .FERightPanel_Items_content {
+    height: 96% !important;
+  }
+
+  .actionbar + div {
+    overflow: hidden !important;
+    margin: 0rem !important;
+  }
+  .FERightPanel_fields_Items_Child .FFMultiSelect_root .MuiFormControl-root {
+    /* min-width: 12.7vw !important; */
+    width: 95%;
+  }
+  .SideBar_Field {
+    height: 45vh;
+  }
+}
+
+@media screen and (min-width: 1366px) and (max-width: 1440px) {
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root:not(.Mui-selected) {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root
+    .Mui-selected {
+    width: 61% !important;
+    font-size: 0.7em !important;
+    padding: 11px;
+  }
+  .Toggle-menu .MuiToggleButtonGroup-root {
+    margin-left: -0.44rem;
+  }
+  .MuiToggleButton-label {
+    font-family: 'Segoe UI';
+  }
+  .FERightPanel_Items_content {
+    height: 95%;
+  }
+  .Left-panel {
+    height: 74vh !important;
+    min-width: 13.75rem !important;
+  }
+  .Grid-rootmainpanel {
+    max-width: 60% !important;
+  }
+  .FERightPanel_Content {
+    min-width: 17.75rem !important;
+  }
+  .FERightPanel_Items_content {
+    height: 93% !important;
+  }
+  .actionbar + div {
+    overflow: hidden !important;
+    margin: 0rem !important;
+  }
+  .FERightPanel_fields_Items_Child .FFMultiSelect_root .MuiFormControl-root {
+    /* min-width: 12.7vw !important; */
+    width: 95%;
+  }
+  .SideBar_Field {
+    height: 45vh;
+  }
+  .Left-panel {
+    min-width: 13.75rem;
+  }
+  .SideBar_Component {
+    height: 57vh;
+  }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1600px) {
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root:not(.Mui-selected) {
+    padding-right: 2px;
+    padding-left: 4px;
+  }
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root
+    .Mui-selected {
+    /*width: 51% !important;*/
+    width: 61% !important;
+    font-size: 0.7em !important;
+    padding: 11px;
+  }
+  .Toggle-menu .MuiToggleButtonGroup-root {
+    margin-left: -0.188rem;
+  }
+  .FERightPanel_Items_content {
+    height: 95%;
+  }
+  .Left-panel {
+    height: 77vh !important;
+    min-width: 15.75rem !important;
+  }
+  .Grid-rootmainpanel {
+    max-width: 63% !important;
+  }
+  .FERightPanel_Content {
+    min-width: 17.75rem !important;
+  }
+  .FERightPanel_Items_content {
+    height: 96% !important;
+  }
+
+  .actionbar + div {
+    overflow: hidden !important;
+    margin: 0rem !important;
+  }
+  .FERightPanel_fields_Items_Child .FFMultiSelect_root .MuiFormControl-root {
+    /* min-width: 12.7vw !important; */
+    width: 95%;
+  }
+  .SideBar_Field {
+    height: 52vh;
+  }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1920px) {
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root:not(.Mui-selected) {
+    padding-right: 0.688rem;
+    padding-left: 0.688rem;
+  }
+  .Toggle-menu
+    .FFToggleButton_root
+    .FFtoggle.MuiToggleButton-root
+    .Mui-selected {
+    /*width: 51% !important;*/
+    width: 70% !important;
+    font-size: 0.7em !important;
+    padding: 0.688rem;
+  }
+  .FERightPanel_Items_content {
+    height: 100%;
+  }
+  .Left-panel {
+    height: 81vh;
+    /* min-width: 16.75rem; */
+  }
+  .Grid-rootmainpanel {
+    max-width: 65%;
+  }
+  .FERightPanel_Content {
+    min-width: 18.75rem;
+  }
+  .actionbar + div {
+    overflow: hidden !important;
+    margin: 0rem !important;
+  }
+  .FERightPanel_fields_Items_Child .FFMultiSelect_root .MuiFormControl-root {
+    /* min-width: 10.7vw !important; */
+    width: 95%;
+  }
+}
+
+@media (max-width: 80em) {
+  .FormDesigner_Modal .addmodal {
+    width: 100% !important;
+  }
+}

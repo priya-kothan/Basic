@@ -1,0 +1,30 @@
+.Switch__header {
+  color: #303030;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  margin: 0.81rem;
+  flex-grow: 1;
+}
+
+/* .FilterDesigner_Switch .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track,
+.FilterDesigner_Switch .MuiSwitch-track {
+  opacity: 1;
+}
+
+.FilterDesigner_Switch
+  .MuiSwitch-colorSecondary.Mui-checked
+  + .MuiSwitch-track {
+  background-color: #1a936f;
+}
+.FilterDesigner_Switch .MuiSwitch-colorSecondary.Mui-checked {
+  color: #ffffff;
+}
+
+.FilterDesigner_Switch .MuiSwitch-thumb {
+  width: 0.625rem;
+  height: 0.625rem;
+  margin-top: 0.31rem;
+  margin-left: 0.31rem;
+} */

@@ -1,0 +1,445 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  color: #303030;
+  font-size: 0.875rem;
+  /* font-weight: 500; */
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.drawer .MuiDrawer-paper {
+  top: unset;
+}
+
+.drawer .MuiPaper-root {
+  background-color: var(--navbar-color);
+  white-space: nowrap;
+}
+
+.drawer_open {
+  width: 17rem;
+}
+
+.drawer .drawer_open .FFPageHeader-root {
+  padding: 0rem 15rem;
+}
+
+.drawer .drawer_close .FFPageHeader-root {
+  padding: 0rem 4rem;
+}
+
+.drawer_close {
+  width: 3.5625rem;
+}
+
+.muidrawer_open .MuiPaper-root {
+  width: 15rem;
+}
+
+.muidrawer_close .MuiPaper-root {
+  width: 3.34rem;
+  overflow-x: hidden;
+}
+
+.drawer__toggle .MuiIconButton-root {
+  padding: 0.5rem 1rem;
+}
+
+.drawer__toggle .MuiIconButton-root:hover {
+  /* background-color: transparent; */
+}
+
+.drawer .MuiListItemIcon-root {
+  min-width: 2.3rem;
+}
+
+.drawer .muidrawer_open .MuiListItem-gutters {
+  padding: 0.432rem 1rem;
+}
+.drawer .drawer_close .MuiListItem-gutters {
+  padding: 0.6rem 1rem;
+}
+
+/* .drawer .drawer__submenu .MuiListItem-button:hover {
+  border-right: 2px solid var(--primary-color);
+} */
+
+.drawer__submenu_item.active {
+  text-decoration: none;
+  background-color: var(--navbar-selected-color);
+  /* border-left: 0.3rem solid var(--accent-color); */
+  /* margin-left: 0.2rem; */
+}
+
+.drawer__submenu_item.active::before,
+.drawer__mainmenu_item.active::before {
+  background-color: var(--accent-color);
+  bottom: 0;
+  content: '';
+  left: 0;
+  position: absolute;
+  top: 0;
+  /* width: 0.1875rem; */
+  width: 0.3125rem;
+  margin: 0.2rem;
+}
+
+/* 
+.drawer__submenu_item.active .MuiListItemIcon-root .imageicon {
+  margin-left: -0.313rem;
+}
+.drawer__submenu_item.active
+  .MuiListItemText-root.navItem
+  .MuiListItemText-primary {
+  margin-left: -0.313rem;
+} */
+
+.drawer .MuiDrawer-paperAnchorDockedLeft {
+  border: none;
+}
+
+.drawer.drawer_open,
+.drawer.drawer_open:not(#EntityPopup, #OptionSetPopup, #EntityFieldPopup),
+.drawer.drawer_open
+  ~ div:not(#EntityPopup, #OptionSetPopup, #EntityFieldPopup) {
+  position: relative;
+  left: 15rem;
+  width: calc(100% - 15rem);
+}
+
+.drawer.drawer_close,
+.drawer.drawer_close:not(#EntityPopup, #OptionSetPopup, #EntityFieldPopup),
+.drawer.drawer_close
+  ~ div:not(#EntityPopup, #OptionSetPopup, #EntityFieldPopup) {
+  position: relative;
+  left: 3.34rem;
+  width: calc(100% - 3.34rem);
+}
+
+.FFPageHeader-root,
+.FFPageHeader-root + div {
+  transition: all 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  overflow: auto;
+}
+
+.actionbar,
+.actionbar + div {
+  transition: all 225ms cubic-bezier(0.4, 0, 0.6, 1) 0ms;
+  overflow: auto;
+}
+
+.drawer__mainmenu_item.active {
+  background-color: var(--navbar-selected-color);
+}
+
+.drawer .drawer_open .drawer__submenu_item.MuiListItem-gutters {
+  padding-left: 3.5rem;
+}
+
+/* --------------------------------- */
+.drawer .menu {
+  display: block;
+  /* z-index: 999999; */
+}
+.drawer .menu li {
+  display: inline-block;
+  position: relative;
+}
+.drawer__mainmenu a.drawer__mainmenu_item:hover > .submenu,
+.drawer .menu li.dropdown:hover > .submenu {
+  display: block;
+}
+
+.drawer__mainmenu .drawer__mainmenu_item:hover > .submenu {
+  display: block;
+}
+
+.drawer__mainmenu.menu:hover > .submenu-items,
+.drawer__submenu.level_1:hover > .submenu-items {
+  display: block;
+}
+
+drawer__mainmenu menu .drawer .menu li a {
+  display: block;
+  padding: 12px 8px;
+}
+
+.drawer .menu li a:hover {
+  /* background: grey; */
+  border-left: 2px solid var(--primary-color);
+
+  background: #ececec;
+  color: #000000;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.drawer .menu li:hover {
+  background: #ececec;
+  color: #000000;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.drawer .menu .submenu {
+  display: none;
+}
+
+.drawer .menu .submenu-items {
+  display: none;
+}
+
+.drawer .submenu-items {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px 2px #888888;
+  /* border: 1px solid red; */
+  left: 0.2rem;
+  list-style-type: none;
+  display: block;
+  width: 17.1875rem;
+  z-index: 1;
+  max-height: 2.1875rem;
+}
+
+.drawer .submenu__header {
+  padding: 10px 8px;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+  font-weight: 600;
+  /* font-family: 'SF PRO DISPLAY'; */
+  font-family: Segoe UI;
+}
+
+.drawer .submenu {
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 5px 2px #888888;
+  /* border: 1px solid red; */
+  left: 3.34rem;
+  /* top: 6.5rem; */
+  list-style-type: none;
+  display: block;
+  width: 12.5rem;
+  bottom: 0.25rem;
+}
+
+.drawer .submenu li {
+  display: block;
+}
+.drawer .submenu li a {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  color: #000000;
+  /* display: block;
+   background: #999;
+   padding: 8px 6px; */
+  margin-bottom: 1px;
+  text-decoration: none;
+  padding-left: 2rem;
+}
+.drawer .menu .submenu > li.dropdown:hover > .submenu {
+  display: block;
+}
+
+.drawer .menu .submenu .submenu {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+}
+
+.drawer_ {
+  flex-grow: 1;
+}
+
+.drawer_ .navsection .MuiTypography-body1 {
+  /* font-weight: 600; */
+  color: var(--navbar-text-color);
+  /* line-height: 3rem;
+  padding: 0 0.81rem;
+  letter-spacing: 0.05vw; */
+  white-space: normal;
+}
+
+.drawer_ .navItem .MuiTypography-body1 {
+  color: var(--navbar-text-color);
+  white-space: normal;
+}
+
+.drawer_ .selected_Items .MuiTypography-body1 {
+  white-space: normal;
+}
+
+.drawer .MuiSvgIcon-root {
+  /* color: var(--navbar-Icon-color); */
+  filter: opacity(0.5) drop-shadow(0 0 0 var(--navbar-Icon-color));
+  width: 1.25rem;
+  height: 1.25rem;
+}
+.drawer .navGroup .MuiTypography-body1 {
+  /* font-weight: 600; */
+  color: var(--navbar-text-color);
+}
+
+.imageicon {
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0rem 0.19rem 0rem 0rem;
+  filter: opacity(0.5) drop-shadow(0 0 0 var(--navbar-Icon-color));
+  cursor: pointer;
+}
+
+.__padding {
+  padding-left: 1rem !important;
+}
+
+#lock-menu :hover {
+  cursor: pointer;
+}
+
+.sidebar-brand-title {
+  margin: 0rem 0.63rem 0.4375rem;
+  margin: 0vw 0.52vw;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  color: var(--navbar-text-color);
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  align-self: center;
+  font-weight: 600;
+  letter-spacing: 0.05vw;
+  width: 11.25rem;
+  text-align: left;
+  padding: 0rem 0rem 0.63rem 0rem;
+}
+
+.sidebar-brand {
+  display: flex;
+  margin: 1rem;
+}
+
+.pinnedList {
+  display: grid;
+}
+.pinicon {
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0rem 0.19rem 0rem 0rem;
+  filter: opacity(0.5) drop-shadow(0 0 0 var(--navbar-Icon-color));
+  cursor: pointer;
+}
+.piniconMain {
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0rem 0.19rem 0rem 0rem;
+  filter: opacity(0.5) drop-shadow(0 0 0 var(--navbar-Icon-color));
+}
+.divPinned {
+  /* display: none; */
+  max-height: 15.625rem;
+  overflow: auto;
+}
+.recentList .recentListitem {
+  padding-left: 1.56rem;
+}
+.recentList {
+  display: grid;
+}
+.divrecent {
+  /* display: none; */
+  max-height: 20.625rem;
+  overflow: auto;
+}
+
+.pinnedList .pinnedListitem {
+  padding-left: 1.56rem;
+}
+
+.MuiListItemText-root.navsection.dynamic {
+  margin-top: 0.15rem;
+  margin-bottom: 0.15rem;
+}
+
+.selected_Items {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+a.drawer__submenu_item:hover > .submenu-items {
+  display: block;
+}
+
+a.drawer__submenu_item {
+  max-height: 2.1875rem;
+}
+
+.drawer_ {
+  display: flex;
+  flex-flow: column;
+}
+
+.drawer_ .drawer__mainmenu.menu {
+  display: flex;
+  flex-flow: column;
+  gap: 0.879rem;
+}
+
+.drawer_ .drawer__mainmenu.menu .MuiDivider-root {
+  height: 0.01rem;
+}
+
+.drawer .menu .group__Items {
+  max-height: 35rem;
+  overflow: auto;
+}
+.v-scroll-auto {
+  overflow: hidden;
+  overflow-y: auto;
+}
+.drawer .MuiDrawer-paper {
+  z-index: 997;
+}
+
+.drawer_close .submenu-items .selected_Items .MuiListItemText-root {
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+.MuiListItemText-root.navGroup .MuiTypography-body1 {
+  font-size: 0.875rem;
+  font-family: Segoe UI Regular;
+}
+
+.drawer .MuiDrawer-paper {
+  z-index: 997;
+}
+.drawer__mainmenu.menu .item-height {
+  height: 2.1875rem;
+}
+
+.drawer_ .drawer__submenu {
+  margin-top: 0.125rem;
+}

@@ -1,0 +1,162 @@
+.Wrapper__timelinetab {
+  display: flex;
+  flex-direction: column;
+  padding: 0.625rem;
+  background: #ffffff;
+  border: 0.06rem solid #acacac;
+  box-sizing: border-box;
+  border-radius: 0.25rem;
+}
+
+.Wrapper__timelinetab .FFTabcontrol .MuiTab-wrapper {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-transform: capitalize;
+  letter-spacing: 0;
+}
+
+.Wrapper__timelinetab .FFTabcontrol.Mui-selected {
+  color: #000000;
+  box-shadow: none;
+}
+
+.PrivateTabIndicator-colorSecondary-3 {
+  background: #ffffff;
+  box-shadow: none;
+}
+
+.Wrapper__timelinetab .FFTabcontrol.Mui-selected .MuiTab-wrapper {
+  font-weight: 600;
+}
+
+.Wrapper__timelinetab .MuiTabScrollButton-root {
+  width: 0;
+}
+
+.Wrapper__timelinetab .FFTabs-root {
+  height: 85%;
+}
+
+.Wrapper__timelinetab .FFTabs-root .MuiTab-root {
+  max-width: 6.25rem;
+  min-width: 6.25rem;
+}
+
+.MuiAppBar-colorDefault {
+  background-color: #ffffff;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  margin: 0.52vw 0.93vh;
+}
+
+.item-container .item-avatar {
+  height: 2rem;
+  width: 2rem;
+  background: #e3e2e2;
+  border-radius: 45px;
+  padding: 4px;
+}
+
+.item-container .item-body {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: flex-start;
+  flex-grow: 2;
+  background: #f5f5f5;
+  border-radius: 4px;
+  padding: 0.93vh 0.52vw;
+  margin-bottom: 1rem;
+  margin-left: 15px;
+}
+
+.ffavatar .MuiAvatar-colorDefault {
+  /* background: #f5f5f5; */
+}
+.item-content.item__timestamp {
+  color: #838383 !important;
+  margin-bottom: 1rem;
+}
+
+.item-container .item-body .item-content {
+  padding: 0.26vh 0px;
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #000000;
+}
+
+.item-Subtitle {
+  /* font-family: SF Pro Display; */
+  font-family: Segoe UI;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #000000;
+}
+
+.Wrapper__timelinetab .MuiTabs-root {
+  margin-left: 1.25rem;
+}
+
+.Wrapper__timelinetab .Upcomming__tabItems {
+  height: 255px;
+  min-width: 500px;
+  margin-bottom: 1rem;
+}
+
+.Wrapper__timelinetab .FFTabs-root .tab-panel.Contenttext {
+  overflow-y: auto;
+}
+
+.Wrapper__timelinetab .Past__tabItems {
+  height: 100%;
+  min-width: 500px;
+}
+
+.Wrapper__timelinetab .Upcomming__tabItems {
+  height: 100%;
+  min-width: 300px;
+}
+
+.Wrapper__header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.Wrapper__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  color: #000000;
+  font-family: Segoe UI;
+}
+
+.Wrapper__timelinetab .Past__tabItems .FFTabs-root .tab-panel.Contenttext {
+  height: 400px;
+}
+
+.Wrapper__timelinetab .Upcomming__tabItems .FFTabs-root .tab-panel.Contenttext {
+  height: 200px;
+}
+.Wrapper__timelinetab .MuiTabs-indicator {
+  background-color: var(--primary-color);
+}
+
+/* .Upcomming__tabItems .item-container .item-avatar {
+  height: 2rem;
+  width: 3rem;
+  flex-basis: 0%;
+} */
